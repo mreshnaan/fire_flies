@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure } from '@headlessui/react'
+
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -10,45 +10,32 @@ const navigation = [
   { name: 'Calendar', href: '#', current: false },
 ]
 
-function classNames(...classes:any[]) {
+function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-transparent">
       {({ open }) => (
         <>
-          <div className="mx-auto  px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="absolute -inset-0.5" />
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                  ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                  )}
-                </Disclosure.Button>
-              </div>
-              <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
+          <div className=" pt-6 px-4 sm:px-6 lg:px-8">
+            <div className="flex h-16 items-center justify-between">
+              <div className="flex items-center">
+                <div className="flex-shrink-0">
                   <img
-                    className="h-8 w-auto ml-12 sm:ml-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="xl:h-[40px] xl:w-[90px] 2xl:h-[70px] 2xl:w-[159px]"
+                    src="/assets/logo.svg"
                     alt="Your Company"
                   />
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'text-[#505D65]' : 'text-[#505D65]  hover:text-[#505D65]',
                           'rounded-md px-3 py-2 text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -56,92 +43,85 @@ export default function Header() {
                         {item.name}
                       </a>
                     ))}
-                  </div>
+              
                 </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <ConnectButton showBalance={false} chainStatus={{largeScreen:"none", smallScreen:"none"}}/>
 
-                {/* Profile dropdown */}
-                {/* <Menu as="div" className="relative ml-3">
-                  <div>
-                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                      <span className="absolute -inset-1.5" />
-                      <span className="sr-only">Open user menu</span>
+              </div>
+              {/* <div className="hidden sm:ml-6 lg:block">
+                <div className="flex space-x-4">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className={classNames(
+                        item.current ? 'text-white' : 'text-gray-300  hover:text-white',
+                        'rounded-md px-3 py-2 text-sm font-medium'
+                      )}
+                      aria-current={item.current ? 'page' : undefined}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              </div> */}
+
+              <div className="-mr-2 flex lg:hidden">
+                {/* Mobile menu button */}
+                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <span className="absolute -inset-0.5" />
+                  <span className="sr-only">Open main menu</span>
+                  {open ? (
+                    <>
                       <img
-                        className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
+                        className="h-8 w-8"
+                        src="/assets/mobile-logo-menu-close.svg"
+                        alt="Your Company"
                       />
-                    </Menu.Button>
-                  </div>
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
-                  >
-                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            Your Profile
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            Settings
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            Sign out
-                          </a>
-                        )}
-                      </Menu.Item>
-                    </Menu.Items>
-                  </Transition>
-                </Menu> */}
+
+                    </>
+
+                  ) : (
+                    <img
+                      className="h-8 w-auto"
+                      src="/assets/mobile-logo-menu.svg"
+                      alt="Your Company"
+                    />
+                  )}
+                </Disclosure.Button>
               </div>
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <Disclosure.Panel className="lg:hidden h-screen w-screen relative flex flex-col gap-[40px]">
+            <img className=" absolute lg:hidden top-[0px] h-screen w-screen right-0 z-[-1]" src="/assets/ellipse5.svg" loading='lazy' />
+
+            <div className="space-y-1 px-2 pb-3 pt-12 items-start  ">
               {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
+                <>
+                  <Disclosure.Button
+                    key={item.name}
+                    as="a"
+                    href={item.href}
+                    className={classNames(
+                      item.current ? 'text-white' : 'text-gray-300 hover:text-[#69EAFF]',
+                      'flex items-center gap-5 px-3 py-4 text-base font-medium'
+                    )}
+                    aria-current={item.current ? 'page' : undefined}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path d="M15.7071 8.70711C16.0976 8.31658 16.0976 7.68342 15.7071 7.29289L9.34315 0.928933C8.95262 0.538409 8.31946 0.538409 7.92893 0.928933C7.53841 1.31946 7.53841 1.95262 7.92893 2.34315L13.5858 8L7.92893 13.6569C7.53841 14.0474 7.53841 14.6805 7.92893 15.0711C8.31946 15.4616 8.95262 15.4616 9.34315 15.0711L15.7071 8.70711ZM-8.74228e-08 9L15 9L15 7L8.74228e-08 7L-8.74228e-08 9Z" fill="currentColor" />
+                    </svg>
+                    {item.name}
+                  </Disclosure.Button>
+                </>
               ))}
+
             </div>
+            <button className='button-gradient-1  py-3 px-8 rounded-[6px] w-[230px] text-[#FFF] text-[19px] mx-auto leading-7 uppercase mt-7'>JOIN COMMUNITY</button>
           </Disclosure.Panel>
         </>
-      )}
-    </Disclosure>
+      )
+      }
+    </Disclosure >
   )
 }
