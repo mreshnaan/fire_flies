@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 function MainBanner() {
     return (
-        <div className=' banner-bg w-full mt-[-90px]  grid grid-cols-1 xl:grid-cols-2 gap-14 pt-[175px] h-fit 2xl:pt-[250px] pb-[100px]'>
-            <div className='flex flex-col justify-center gap-[30px] pt-[150px] xl:pt-0 xl:pl-[140px] 2xl:pl-[240px]'>
+        <div className=' banner-bg w-full mt-[-90px]  grid grid-cols-1 xl:grid-cols-2 gap-14  h-fit  pb-[100px]'>
+            <div className='flex flex-col justify-center gap-[30px] pt-[150px] xl:pt-[150px] 2xl:pt-[250px] xl:pl-[140px] 2xl:pl-[240px]'>
                 <p className="text-[#505D65]  font-bold  uppercase xl:text-[28px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[35px]">Fireflies WEB3</p>
                 <h1 className="text-[#505D65]  uppercase font-bold xl:text-[70px] xl:leading-[77px] 2xl:text-[80px] 2xl:leading-[88px]">Pioneering the Future of Travel</h1>
                 <p className="text-[#505D65] text-justify xl:text-[18px] xl:leading-[36px] 2xl:text-[20px] 2xl:leading-[38px]">Embark on an unparalleled adventure with Fireflies Web3, where we merge the familiarity of traditional online travel booking with the cutting-edge innovation of Web3 technology.</p>
@@ -49,8 +49,8 @@ function MainBanner() {
                     </Link>
                 </div>
             </div>
-            <div className='flex justify-center items-center'>
-
+            <div className='flex justify-center'>
+                <img src="/assets/bannerImg.png" alt="" srcSet="" className="xl:h-[825px] xl:w-[927px] 2xl:h-[1025px] 2xl:w-[1227.292px]" />
             </div>
 
         </div>
