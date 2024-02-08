@@ -15,19 +15,19 @@ function WhatWeDo() {
             </div>
             <div className='flex flex-col gap-8'>
                 <div className='flex gap-[35px] items-start'>
-                    <CustomCarousel classNames='w-[853px]' sliders={[<img src='/assets/what-we-do-1.png' />, <img src='/assets/what-we-do-1.png' />]} />
+                    <CustomCarousel classNames='xl:w-[650px] 2xl:w-[853px]' sliders={[<img src='/assets/what-we-do-1.png' />, <img src='/assets/what-we-do-1.png' />]} />
                     <div className='flex items-center'>
                         <div className="w-0 h-0 
   border-t-[40px] border-t-transparent
   border-r-[30px] border-r-[#13AFB6]
   border-b-[40px] border-b-transparent mr-[-1px]">
                         </div>
-                        <div className='what-we-do-bg w-[454px] h-[508px] rounded-[16px]'></div>
+                        <div className='what-we-do-bg xl:w-[350px] xl:h-[450px] 2xl:w-[454px] 2xl:h-[508px] rounded-[16px]'></div>
 
                     </div>
                 </div>
 
-                <p className='w-[1342px] text-[#505D65] text-justify text-[20px] leading-[30px]'>
+                <p className='xl:w-[1050px] 2xl:w-[1342px] text-[#505D65] text-justify text-[20px] leading-[30px]'>
                     Traditional travel agencies and online portals typically mark up their prices by 10-50% over the wholesale rates they receive from hotels and travel wholesalers. At Fireflies, we take a different approach. Rather than seeking profit through markups, we've innovated with unique Fireflies products like the Best Price Option (BPO).<span className='font-bold'> This exclusive offering allows us to pass on the wholesale rates directly to you, ensuring our prices are consistently below market rates.</span>
                 </p>
                 <Divider className='mt-[150px]  bg-[#505D65] opacity-30' />

@@ -3,11 +3,17 @@ import Status from "./Status"
 
 function WhoWeAre() {
   return (
-    <div className="pl-[140px] pr-[240px] pt-[100px] pb-[150px] grid grid-cols-2 gap-36">
-      <div className="flex items-start gap-[60px]">
-        <HorizontalTitle title={"who we are"} />
+    <div className=" grid grid-cols-1  xl:grid-cols-2 xl:p-[80px] xl:gap-20 2x:pl-[140px] 2xl:pr-[240px] 2xl:pt-[100px] 2xl:pb-[150px] 2xl:gap-36">
+      <div className="flex flex-col items-center xl:flex-row xl:items-start xl:gap-[50px] 2xl:gap-[60px]">
+        <HorizontalTitle title={"who we are"} mainContainerClassName="hidden xl:flex" />
+        <div className={`xl:hidden flex items-center justify-center gap-10`}>
+          <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
+          <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[79px] w-fit"}>PRESIDENT CEO</p>
+        </div>
+
+
         <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="610" height="665" viewBox="0 0 610 665" fill="none">
+          <svg className="w-[246px] h-[150px] xl:w-[410px] xl:h-[450px] 2xl:w-[610px] 2xl:h-[665px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 665" fill="none">
             <path d="M98.9686 27.9495H134.887L154.784 103.776L185.792 2.32913H232.822L172.355 180.637H139.021L116.54 93.9415L94.8341 180.637H61.2416L1.29202 2.32913H48.0631L78.8131 103.776L98.9686 27.9495Z" fill="#505D65" />
             <path d="M294.015 72.7206H348.28V2.32913H392.208V180.637H348.28V111.281H294.015V180.637H250.861V2.32913H294.015V72.7206Z" fill="#505D65" />
             <path d="M421.969 91.6124C421.969 66.2508 430.755 44.771 448.326 26.9144C466.156 9.05772 487.604 0 512.669 0C537.992 0 559.44 9.05772 577.011 26.9144C594.841 44.771 603.627 66.2508 603.627 91.6124C603.627 116.715 594.841 138.454 577.011 156.31C559.44 174.167 537.992 182.966 512.669 182.966C487.604 182.966 466.414 174.167 448.585 156.31C430.755 138.454 421.969 116.715 421.969 91.6124ZM512.669 139.489C525.847 139.489 537.217 134.831 546.261 125.514C555.564 116.198 560.215 104.811 560.215 91.6124C560.215 78.414 555.564 67.0271 546.261 57.7106C536.959 48.1353 525.847 43.4771 512.669 43.4771C499.49 43.4771 488.379 48.1353 479.335 57.7106C470.29 67.0271 465.639 78.414 465.639 91.6124C465.639 104.811 470.29 116.198 479.335 125.514C488.379 134.831 499.49 139.489 512.669 139.489Z" fill="#505D65" />
@@ -21,7 +27,7 @@ function WhoWeAre() {
         </span>
       </div>
       <div className="flex flex-col gap-[30px]">
-        <h1 className="text-[#505D65] text-[32px] leading-[41px] font-bold">Welcome to Fireflies, your trusted companion in the realm of travel.</h1>
+        <h1 className="text-[#505D65] 2xl:text-[32px] 2xl:leading-[41px] font-bold">Welcome to Fireflies, your trusted companion in the realm of travel.</h1>
         <div className="flex flex-col gap-[30px] text-[20px] leading-[30px] text-justify text-[#505D65]">
           <p>Since our inception in 2011, we have been dedicated to redefining the travel experience for people around the globe. With users from over 165 countries and a vast array of over 5.1 million accommodations and 800 airlines, Fireflies stands as a leading online tourism booking portal, committed to bringing you unparalleled travel experiences.</p>
           <p>At Fireflies, we believe in making the world more accessible and enjoyable for everyone. Our platform is not just about booking your next trip; it’s about creating memories that last a lifetime. Whether you're seeking adventure, relaxation, cultural immersion, or business travel, we cater to all your needs with ease and efficiency.</p>

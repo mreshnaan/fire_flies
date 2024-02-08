@@ -3,33 +3,33 @@ import HorizontalTitle from "./HorizontalTitle"
 
 function TokenBenefits() {
     return (
-        <div className='flex flex-col pt-[150px] gap-[30px] w-[1538px]'>
-            <div className='flex items-center gap-[105px]'>
+        <div className='flex flex-col pt-[150px] gap-[30px] xl:w-[1280px] 2xl:w-[1538px] xl:pr-4'>
+            <div className='flex items-center justify-center xl:gap-[80px] 2xl:gap-[105px]'>
                 <div className='flex items-start gap-[60px]'>
                     <HorizontalTitle title='exclusive benefits' mainContainerClassName={"gap-20"} titleClassName='w-[120px]' />
-                    <h1 className='w-[676px] text-left text-[#13AFB6] text-[80px] font-bold leading-[88px] uppercase'>Exclusive Travel Benefits with $FFT Tokens</h1>
+                    <h1 className='xl:w-[500px] 2xl:w-[676px] text-left text-[#13AFB6] xl:text-[60px] xl:leading-[68px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>Exclusive Travel Benefits with $FFT Tokens</h1>
                 </div>
                 <img src="/assets/token.png" alt="" srcSet="" />
             </div>
 
             <div className='flex items-start gap-[60px]'>
-                <div className="pl-[120px] h-7"></div>
+                <div className="xl:pl-[75px] 2xl:pl-[120px] h-7"></div>
                 <div className="flex gap-24">
                     <div className="flex flex-col gap-[40px]">
                         <div className="flex flex-col gap-[20px]">
-                            <h1 className="text-[#505D65] text-[32px] leading-[41px]">Significant Savings on Bookings</h1>
-                            <p className="text-[#505D65] text-20px leading-[30px]">Use your $FFT Tokens to unlock significantly reduced prices on a wide range of travel services. From luxurious hotels to exciting adventures, enjoy cost-effective travel like never before.</p>
+                            <h1 className="text-[#505D65] xl:text-[24px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Significant Savings on Bookings</h1>
+                            <p className="text-[#505D65] xl:text-[18px] xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">Use your $FFT Tokens to unlock significantly reduced prices on a wide range of travel services. From luxurious hotels to exciting adventures, enjoy cost-effective travel like never before.</p>
                         </div>
                         <div className="flex flex-col gap-[20px]">
-                            <h1 className="text-[#505D65] text-[32px] leading-[41px]">Buy and Burn Mechanism</h1>
-                            <p className="text-[#505D65] text-20px leading-[30px]">To enhance the value of $FFT Tokens, we implement a strategic Buy and Burn mechanism. A portion of the token fees collected from transactions is used to purchase $FFT Tokens from the market and burn them. This process reduces the overall token supply, creating deflationary pressure which can potentially increase the token's value over time. As a token holder, this mechanism not only offers you immediate benefits on travel bookings but also holds the promise of growing value, making your investment in $FFT Tokens a smarter choice for both travel and financial returns.</p>
+                            <h1 className="text-[#505D65] xl:text-[24px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Buy and Burn Mechanism</h1>
+                            <p className="text-[#505D65] xl:text-[18px] xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">To enhance the value of $FFT Tokens, we implement a strategic Buy and Burn mechanism. A portion of the token fees collected from transactions is used to purchase $FFT Tokens from the market and burn them. This process reduces the overall token supply, creating deflationary pressure which can potentially increase the token's value over time. As a token holder, this mechanism not only offers you immediate benefits on travel bookings but also holds the promise of growing value, making your investment in $FFT Tokens a smarter choice for both travel and financial returns.</p>
                             <img src="/assets/tokenGraph.png" alt="" srcSet="" />
                         </div>
                     </div>
                     <div className="flex flex-col gap-[40px]">
                         <div className="flex flex-col gap-[20px]">
-                            <h1 className="text-[#505D65] text-[32px] leading-[41px]">Enhanced Savings with Discount Schemes</h1>
-                            <p className="text-[#505D65] text-20px leading-[30px]">Maximize your travel benefits with Fireflies' exclusive discount schemes, available only when you use $FFT Tokens. Enjoy a uniform 20% discount across various travel services, elevating your journey to new levels of affordability and pleasure. Whether it's securing the Best Price Option (BPO) for unmatched deals, savoring unique dining experiences with Eat for Stay, unlocking value in Distributorship, indulging in VIP luxuries with the VIP Discount Pass, or accessing coveted event tickets, your $FFT Tokens are the key to unlocking these irresistible savings. Embrace the joy of travel with cost-efficiency and exclusive perks, making each trip with Fireflies not just memorable, but also more rewarding.</p>
+                        <h1 className="text-[#505D65] xl:text-[24px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Enhanced Savings with Discount Schemes</h1>
+                            <p className="text-[#505D65] xl:text-[18px] xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">Maximize your travel benefits with Fireflies' exclusive discount schemes, available only when you use $FFT Tokens. Enjoy a uniform 20% discount across various travel services, elevating your journey to new levels of affordability and pleasure. Whether it's securing the Best Price Option (BPO) for unmatched deals, savoring unique dining experiences with Eat for Stay, unlocking value in Distributorship, indulging in VIP luxuries with the VIP Discount Pass, or accessing coveted event tickets, your $FFT Tokens are the key to unlocking these irresistible savings. Embrace the joy of travel with cost-efficiency and exclusive perks, making each trip with Fireflies not just memorable, but also more rewarding.</p>
                         </div>
                         <Divider className='bg-[#505D65] opacity-30' />
                         <div className="flex flex-col gap-[40px]">

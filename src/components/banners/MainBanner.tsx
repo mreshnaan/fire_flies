@@ -2,15 +2,15 @@ import { Link } from "react-router-dom"
 
 function MainBanner() {
     return (
-        <div className=' banner-bg w-full mt-[-90px]  grid grid-cols-1 xl:grid-cols-2 gap-14 h-fit 2xl:pt-[250px] pb-[100px]'>
-            <div className='flex flex-col justify-center gap-[30px] xl:pl-[140px] 2xl:pl-[240px]'>
-                <p className="text-[#505D65] text-[32px] font-bold leading-[35px] uppercase">Fireflies WEB3</p>
-                <h1 className="text-[#505D65] text-[80px] leading-[88px] uppercase font-bold">Pioneering the Future of Travel</h1>
-                <p className="text-[#505D65] text-justify text-[20px] leading-[38px]">Embark on an unparalleled adventure with Fireflies Web3, where we merge the familiarity of traditional online travel booking with the cutting-edge innovation of Web3 technology.</p>
-                <p className="text-[#505D65] text-[32px] font-light leading-[41px]">The $FFT Token is your key to unlocking a universe of travel opportunities, bringing together a global community of explorers and adventurers.</p>
+        <div className=' banner-bg w-full mt-[-90px]  grid grid-cols-1 xl:grid-cols-2 gap-14 pt-[175px] h-fit 2xl:pt-[250px] pb-[100px]'>
+            <div className='flex flex-col justify-center gap-[30px] pt-[150px] xl:pt-0 xl:pl-[140px] 2xl:pl-[240px]'>
+                <p className="text-[#505D65]  font-bold  uppercase xl:text-[28px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[35px]">Fireflies WEB3</p>
+                <h1 className="text-[#505D65]  uppercase font-bold xl:text-[70px] xl:leading-[77px] 2xl:text-[80px] 2xl:leading-[88px]">Pioneering the Future of Travel</h1>
+                <p className="text-[#505D65] text-justify xl:text-[18px] xl:leading-[36px] 2xl:text-[20px] 2xl:leading-[38px]">Embark on an unparalleled adventure with Fireflies Web3, where we merge the familiarity of traditional online travel booking with the cutting-edge innovation of Web3 technology.</p>
+                <p className="text-[#505D65] font-light  xl:text-[28px] xl:leading-[36px] 2xl:text-[32px] 2xl:leading-[41px]">The $FFT Token is your key to unlocking a universe of travel opportunities, bringing together a global community of explorers and adventurers.</p>
 
                 <div className=" mt-[44px] flex items-center gap-[30px]">
-                    <button className="join-cm-btn-bg py-[14px] px-[38px] rounded-[50px] text-[#FFF] text-[32px] leading-[41px] uppercase font-bold">  Join Community</button>
+                    <button className="join-cm-btn-bg py-[14px] px-[38px] rounded-[50px] text-[#FFF] xl:text-[20px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px] uppercase font-bold">  Join Community</button>
                     <Link to={"#"} >
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewBox="0 0 32 26" fill="none">
                             <g clip-path="url(#clip0_0_813)">

@@ -102,4 +102,12 @@
   .download-btn-bg {
     background: linear-gradient(272deg, #B81A21 0%, #F6484F 100%);
   }
+
+  .subscription-btn-bg {
+    background: linear-gradient(272deg, #B81A21 0%, #F6484F 100%);
+  }
+
+  .making-difference-bg {
+    background: linear-gradient(96deg, #13AFB6 0%, #03659C 100%);
+  }
 }

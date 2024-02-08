@@ -1,26 +1,24 @@
-import React from 'react'
 import HorizontalTitle from './HorizontalTitle'
 
 function Partners() {
     return (
-        <div className='flex flex-col items-center pt-[150px] gap-[140px] w-[1538px]'>
-            <div className='flex items-center gap-[105px]'>
+        <div className='flex flex-col items-center pt-[150px] gap-[140px] xl:w-[1280px] 2xl:w-[1538px]'>
+            <div className='flex items-center xl:gap-[80px] 2xl:gap-[105px]'>
                 <div className='flex items-start gap-[60px]'>
                     <HorizontalTitle title='partners' />
-                    <h1 className='w-[671px] text-left text-[#505D65] text-[80px] font-bold leading-[88px] uppercase'>Leading the Charge in Crypto Travel Synergy</h1>
+                    <h1 className='xl:w-[400px] 2xl:w-[671px] text-left text-[#505D65]  font-bold xl:text-[50px] 2xl:text-[80px] 2xl:leading-[88px] uppercase'>Leading the Charge in Crypto Travel Synergy</h1>
                 </div>
-                <div className='flex flex-col gap-8 text-[#505D65] text-justify text-[20px] leading-[30px]'>
+                <div className='flex flex-col gap-8 text-[#505D65] text-justify text-[20px] leading-[30px] xl:w-[600px] '>
                     <p>Our vision at Fireflies is to seamlessly blend the dynamic world of cryptocurrency with the diverse and expansive offerings of global travel. The $FFT token is our tool for unlocking this new realm, providing access to over 5.1 million accommodations and exclusive cruise experiences at special crypto-friendly rates</p>
 
                     <p>We aim to enrich the travel experiences of the crypto community, offering a platform where every journey is enhanced by the innovation and versatility of digital currency. Join us on this journey where travel innovation meets the convenience of cryptocurrency.</p>
                 </div>
             </div>
-            <div className='flex flex-col gap-[50px]'>
-                <div className='grid grid-cols-7 gap-[42px]'>
+            <div className='flex flex-col gap-[50px] px-5'>
+                <div className='grid xl:grid-cols-5 2xl:grid-cols-7 xl:gap-[44px] 2xl:gap-[60px] self-center xl:pl-8 2xl:pl-0 '>
                     <div className='col-span-3 pt-[43px] px-[45px] pb-[68px] relative rounded-[500px]  bg-[#13AFB6] bg-opacity-10'>
 
-                        <p className='text-[#505D65] w-[504px] text-[20px] leading-[30px] text-center'>We offer you one of the largest hotel databases in the world, where you can find almost every accomodation</p>
-
+                        <p className='text-[#505D65] 2xl:w-[504px] text-[20px] leading-[30px] text-center'>We offer you one of the largest hotel databases in the world, where you can find almost every accomodation</p>
 
                         <svg className='absolute bottom-0 left-20' xmlns="http://www.w3.org/2000/svg" width="444" height="38" viewBox="0 0 444 38" fill="none">
                             <path d="M36.7018 21.8786C24.7104 34.6747 8.92153 37.9997 0.984305 37.9997L222 37.9997L222 6.79812e-05L75.5943 3.91846e-05C54.9575 3.2837e-05 47.493 10.3634 36.7018 21.8786Z" fill="url(#paint0_linear_23_76)" />

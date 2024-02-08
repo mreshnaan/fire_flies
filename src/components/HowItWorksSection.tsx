@@ -3,22 +3,23 @@ import HorizontalTitle from './HorizontalTitle'
 
 function HowItWorksSection() {
     return (
-        <div className='flex flex-col items-center pt-[150px] gap-[100px] w-[1538px] '>
-            <div className='flex items-center gap-[105px]'>
+        <div className='flex flex-col items-center pt-[150px] xl:gap-[80px] 2xl:gap-[100px] xl:w-[1280px] 2xl:w-[1538px] '>
+            <div className='flex items-center xl:gap-[60px] 2xl:gap-[105px]'>
                 <div className='flex items-start gap-[60px]'>
                     <HorizontalTitle title='HOW IT WORKS?' titleClassName='w-[100px]' />
-                    <h1 className='w-[380px] text-left text-[#13AFB6] text-[80px] font-bold leading-[88px] uppercase'>How the travel market works?</h1>
+                    <h1 className='xl:w-[280px] 2xl:w-[380px] text-left text-[#13AFB6] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>How the travel market works?</h1>
                 </div>
-                <img src="/assets/howitworks1.png" alt="" srcSet="" />
+                <img src="/assets/howitworks1.png" alt="" srcSet="" className='xl:w-[800px]  object-contain' />
             </div>
             <div className='flex flex-col gap-[50px]'>
-                <div className='flex items-center gap-[105px]'>
+                <div className='flex items-center xl:gap-[60px] 2xl:gap-[105px]'>
 
                     <div className='flex items-start gap-[60px]'>
                         <div className='w-[30.58px]'></div>
-                        <h1 className='w-[380px] text-left text-[#505D65] text-[80px] font-bold leading-[88px] uppercase'>How FIREFLIES works?</h1>
+                        <h1 className='xl:w-[280px] 2xl:w-[380px] text-left text-[#505D65] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>
+                            How FIREFLIES works?</h1>
                     </div>
-                    <img src="/assets/howitworks2.png" alt="" srcSet="" />
+                    <img src="/assets/howitworks2.png" alt="" srcSet="" className='xl:w-[800px]  object-contain'  />
                 </div>
 
                 <div className='flex items-center gap-3 pl-[96.58px]'>
