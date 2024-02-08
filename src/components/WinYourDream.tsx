@@ -1,4 +1,4 @@
-import React from 'react'
+
 import HorizontalTitle from './HorizontalTitle'
 import Divider from './Divider'
 import Charitable from './Charitable'

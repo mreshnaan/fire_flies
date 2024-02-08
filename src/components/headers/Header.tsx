@@ -1,5 +1,3 @@
-import { Fragment } from 'react'
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { Disclosure } from '@headlessui/react'
 
 
