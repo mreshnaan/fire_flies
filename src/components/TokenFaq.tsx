@@ -14,216 +14,216 @@ function TokenFaq() {
                 </div>
 
                 <div className='flex flex-col'>
-                    <div className="flex flex-col items-center xl:hidden mt-10 w-full gap-8">
-                        <div className="flex flex-col items-center w-full">
-                            <div
-                                className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape9.png"
-                                    alt=""
-                                    className="w-[70%]"
-                                />
+                    <CustomCarousel sliders={[
+                        <div className='min-w-[330px] min-h-[400px] relative'>
+                            <div className="flex flex-col items-center xl:hidden mt-10 w-full gap-8">
+                                <div className="flex flex-col items-center w-full">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape9.png"
+                                            alt=""
+                                            className="w-[196px] h-[120px]"
+                                        />
 
-                                <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%] gap-3">
-                                    <p className="m-0">2024</p>
-                                    <p className="m-0 text-[50px]">Q1</p>
-                                </b>
+                                        <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center  gap-3">
+                                            <p className="m-0">2024</p>
+                                            <p className="m-0 text-[50px]">Q1</p>
+                                        </b>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col items-center w-full mt-[100px]">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape6.png"
+                                            alt=""
+                                            className="w-[325px] h-[250.5px]"
+                                        />
+                                        <b className="flex absolute top-[40px] justify-start flex-col z-[3] text-[14px] leading-[20.8px]  gap-2">
+                                            <div className="flex gap-3 items-center">
+                                                <div
+                                                    className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">$FFT Smart Contract<br /> Development</p>
+                                            </div>
+
+                                            <div className="flex gap-3 items-center">
+                                                <div
+                                                    className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Crowdsale Contract<br /> Development</p>
+                                            </div>
+
+                                            <div className="flex gap-3 items-center">
+                                                <div
+                                                    className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">$FFT Token Audit</p>
+                                            </div>
+
+                                            <div className="flex gap-3 items-center">
+                                                <div
+                                                    className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Start of $FFT Pre-Sale</p>
+                                            </div>
+                                        </b>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="flex flex-col items-center w-full mt-[100px]">
-                            <div
-                                className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape6.png"
-                                    alt=""
-                                    className="w-[95%]"
-                                />
+                        </div>,
+                        <div className='min-w-[330px] min-h-[450px] relative'>
+                            <div className="flex flex-col items-center xl:hidden mt-10 w-full gap-8">
+                                <div className="flex flex-col items-center w-full">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape9.png"
+                                            alt=""
+                                            className="w-[196px] h-[120px]"
+                                        />
 
-                                <b className="flex absolute top-[40px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
-                                    <div className="flex gap-3 items-center">
-                                        <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">$FFT Smart Contract<br /> Development</p>
+                                        <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center  gap-3">
+                                            <p className="m-0">2024</p>
+                                            <p className="m-0 text-[50px]">Q2</p>
+                                        </b>
                                     </div>
+                                </div>
+                                <div className="flex flex-col items-center w-full mt-[100px]">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape6.png"
+                                            alt=""
+                                            className="w-[325px] h-[280.5px]"
+                                        />
+                                        <b className="flex absolute top-[45px] justify-start flex-col z-[3]  text-[14px] leading-[16.8px] gap-2">
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Start of Fireflies Web3<br /> Platform Development</p>
+                                            </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Crowdsale Contract<br /> Development</p>
-                                    </div>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Start of High-Spend<br /> Traveler Reward<br /> Development</p>
+                                            </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">$FFT Token Audit</p>
-                                    </div>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Start of Tier-Based<br /> Staking Options<br /> Development</p>
+                                            </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Start of $FFT Pre-Sale</p>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Start of Adventure<br /> Raffles Development</p>
+                                            </div>
+                                        </b>
                                     </div>
-                                </b>
+                                </div>
                             </div>
-                        </div>
+                        </div>,
+                        <div className='min-w-[330px] min-h-[400px] relative'>
+                            <div className="flex flex-col items-center xl:hidden mt-10 w-full gap-8">
+                                <div className="flex flex-col items-center w-full">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape9.png"
+                                            alt=""
+                                            className="w-[196px] h-[120px]"
+                                        />
 
-                        <div className="flex flex-col items-center w-full mt-[270px]">
-                            <div className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape9.png"
-                                    alt=""
-                                    className="w-[70%]"
-                                />
+                                        <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center  gap-3">
+                                            <p className="m-0">2024</p>
+                                            <p className="m-0 text-[50px]">Q3</p>
+                                        </b>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col items-center w-full mt-[100px]">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape6.png"
+                                            alt=""
+                                            className="w-[325px] h-[250.5px]"
+                                        />
+                                        <b className="flex absolute top-[40px] justify-start flex-col z-[3]  text-[14px] leading-[16.8px] gap-2">
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">$FFT Token Launch</p>
+                                            </div>
 
-                                <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%] gap-3">
-                                    <p className="m-0">2024</p>
-                                    <p className="m-0 text-[50px]">Q2</p>
-                                </b>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">DEX Listing</p>
+                                            </div>
+
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Launch of 12-Month<br /> Streak NFT Reward Program</p>
+                                            </div>
+
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Launch of Buy & Burn <br />Mechanism</p>
+                                            </div>
+                                        </b>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="flex flex-col items-center w-full mt-[100px]">
-                            <div className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape6.png"
-                                    alt=""
-                                    className="w-[95%] h-[390px]"
-                                />
+                        </div>,
+                        <div className='min-w-[330px] min-h-[400px] relative'>
+                            <div className="flex flex-col items-center xl:hidden mt-10 w-full gap-8">
+                                <div className="flex flex-col items-center w-full">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape9.png"
+                                            alt=""
+                                            className="w-[196px] h-[120px]"
+                                        />
 
-                                <b className="flex absolute top-[45px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Start of Fireflies Web3<br /> Platform Development</p>
+                                        <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center  gap-3">
+                                            <p className="m-0">2024</p>
+                                            <p className="m-0 text-[50px]">Q4</p>
+                                        </b>
                                     </div>
+                                </div>
+                                <div className="flex flex-col items-center w-full mt-[100px]">
+                                    <div
+                                        className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                        <img
+                                            src="/assets/shape6.png"
+                                            alt=""
+                                            className="w-[325px] h-[250.5px]"
+                                        />
+                                        <b className="flex absolute top-[46px] justify-start flex-col z-[3]  text-[14px] leading-[16.8px] gap-2">
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">CEX Listing</p>
+                                            </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Start of High-Spend<br /> Traveler Reward<br /> Development</p>
-                                    </div>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Partnership Expansion <br />Initiatives</p>
+                                            </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Start of Tier-Based<br /> Staking Options<br /> Development</p>
-                                    </div>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">
+                                                    Launch of Environmental <br />
+                                                    and Social Responsibility<br /> NFT Program
+                                                </p>
+                                            </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Start of Adventure<br /> Raffles Development</p>
+                                            <div className="flex gap-3 items-center">
+                                                <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <p className="m-0">Launch of User-Generated<br /> Content Rewards Program</p>
+                                            </div>
+                                        </b>
                                     </div>
-                                </b>
+                                </div>
                             </div>
-                        </div>
+                        </div>,
 
-                        <div className="flex flex-col items-center w-full mt-[350px]">
-                            <div
-                                className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape9.png"
-                                    alt=""
-                                    className="w-[70%]"
-                                />
-
-                                <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%] gap-3">
-                                    <p className="m-0">2024</p>
-                                    <p className="m-0 text-[50px]">Q3</p>
-                                </b>
-                            </div>
-                        </div>
-                        <div className="flex flex-col items-center w-full mt-[100px]">
-                            <div
-                                className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape6.png"
-                                    alt=""
-                                    className="w-[95%] h-[300px]"
-                                />
-
-                                <b className="flex absolute top-[40px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">$FFT Token Launch</p>
-                                    </div>
-
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">DEX Listing</p>
-                                    </div>
-
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Launch of 12-Month<br /> Streak NFT Reward Program</p>
-                                    </div>
-
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Launch of Buy & Burn <br />Mechanism</p>
-                                    </div>
-                                </b>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col items-center w-full mt-[280px]">
-                            <div className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape9.png"
-                                    alt=""
-                                    className="w-[70%]"
-                                />
-
-                                <b className="flex absolute justify-center flex-col items-center top-3 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%] gap-3">
-                                    <p className="m-0">2024</p>
-                                    <p className="m-0 text-[50px]">Q4</p>
-                                </b>
-                            </div>
-                        </div>
-                        <div className="flex flex-col items-center w-full mt-[100px]">
-                            <div className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape6.png"
-                                    alt=""
-                                    className="w-[95%] h-[340px]"
-                                />
-
-                                <b className="flex absolute top-[46px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">CEX Listing</p>
-                                    </div>
-
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Partnership Expansion <br />Initiatives</p>
-                                    </div>
-
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">
-                                            Launch of Environmental <br />
-                                            and Social Responsibility<br /> NFT Program
-                                        </p>
-                                    </div>
-
-                                    <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
-                                        <p className="m-0">Launch of User-Generated<br /> Content Rewards Program</p>
-                                    </div>
-                                </b>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col items-center w-full mt-[350px] mb-10">
-                            <div className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
-                                <img
-                                    src="/assets/shape9.png"
-                                    alt=""
-                                    className="w-[70%]"
-                                />
-
-                                <b className="flex absolute justify-center flex-col items-center top-10 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%] gap-3">
-                                    <p className="m-0">2025 coming soon</p>
-                                </b>
-                            </div>
-                        </div>
-                    </div>
+                    ]} classNames="xl:hidden w-[330px]" dotNavBtnClass={"w-[27.586px] h-[3px]"} navContainerClass='mt-[0px]' dotNavMainContainerClass="" />
 
 
                     <div className="hidden xl:block relative">
