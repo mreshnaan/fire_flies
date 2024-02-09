@@ -37,8 +37,8 @@ function RewardProgram() {
                             </div>
                         </div>,
                         <div className='w-[330px] flex flex-col gap-[30px] items-center justify-center'>
-                            <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>Travel<br></br>
-                                Streak Reward
+                            <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>HOTEL STAYS<br></br>
+                                STREAK REWARD
                             </h1>
                             <div className='bg-[url("/assets/mb-shape7.png")] w-[330px] h-[108px] bg-no-repeat bg-contain flex items-center justify-center'>
                                 <p className='w-[250px] text-[#FFF] text-center text-[14px] leading-[17px]'><span className='font-bold uppercase'>Criteria:</span> Stay a total of 50 nights in hotels booked through Fireflies within a 12-month period.</p>
@@ -51,7 +51,7 @@ function RewardProgram() {
                             </div>
                         </div>,
                         <div className='w-[330px] flex flex-col gap-[30px] items-center justify-center'>
-                            <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>Travel<br></br>
+                            <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>CULTURAL EXPLORER <br></br>
                                 Streak Reward</h1>
                             <div className='bg-[url("/assets/mb-shape7.png")] w-[330px] h-[108px] bg-no-repeat bg-contain flex items-center justify-center'>
                                 <p className='w-[250px] text-[#FFF] text-center text-[16px] leading-[27px]'><span className='font-bold uppercase'>Criteria:</span> Book a trip every month for 12 months.</p>
@@ -86,7 +86,7 @@ function RewardProgram() {
                     </div>
 
                     <div className='hidden w-[426px] xl:flex flex-col items-center justify-center'>
-                        <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>Travel<br></br>
+                        <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>HOTEL STAYS<br></br>
                             Streak Reward</h1>
                         <div className='bg-[url("/assets/shape7.png")] w-[426px] h-[198px] bg-no-repeat bg-contain flex items-center justify-center'>
                             <p className='w-[318px] text-[#FFF] text-center text-[20px] leading-[30px]'><span className='font-bold uppercase'>Criteria:</span>Stay a total of 50 nights in hotels booked through Fireflies within a 12-month period.</p>
@@ -101,7 +101,7 @@ function RewardProgram() {
                     </div>
 
                     <div className='hidden w-[426px] xl:flex flex-col items-center justify-center'>
-                        <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>Travel<br></br>
+                        <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>CULTURAL EXPLORER <br></br>
                             Streak Reward</h1>
                         <div className='bg-[url("/assets/shape7.png")] w-[426px] h-[198px] bg-no-repeat bg-contain flex items-center justify-center'>
                             <p className='w-[318px] text-[#FFF] text-center text-[20px] leading-[30px]'><span className='font-bold uppercase'>Criteria:</span> Book a trip every month for 12 months.</p>

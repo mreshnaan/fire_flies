@@ -265,7 +265,7 @@ function TravelerReward() {
 
                     <div className="flex flex-col xl:gap-[50px] gap-[20px]">
                         <h1 className='xl:text-left text-center text-[#FFF] xl:text-[48px] text-[25px] font-bold leading-[48px] xl:uppercase'>
-                            Annual Giving Campaign to Your Progress
+                            YOUR PROGRESS
                         </h1>
 
                         <div className="xl:block hidden">

@@ -13,7 +13,7 @@ function Partners() {
                     <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[400px] 2xl:w-[671px] xl:text-left text-[#505D65]  font-bold xl:text-[50px] 2xl:text-[80px] 2xl:leading-[88px] uppercase'>Leading the Charge in Crypto Travel Synergy</h1>
                 </div>
                 <div className='flex flex-col w-[325px] text-[12px] leading-[18px] gap-8 text-[#505D65] text-justify xl:text-[20px] xl:leading-[30px] xl:w-[600px] '>
-                    <p>Our vision at Fireflies is to seamlessly blend the dynamic world of cryptocurrency with the diverse and expansive offerings of global travel. The $FFT token is our tool for unlocking this new realm, providing access to over 5.1 million accommodations and exclusive cruise experiences at special crypto-friendly rates</p>
+                    <p>Our vision at Fireflies is to seamlessly blend the dynamic world of cryptocurrency with the diverse and expansive offerings of global travel. The $FFT token is our tool for unlocking this new realm, providing access to over 5.1 million accommodations and exclusive cruise experiences at special crypto-friendly rates...</p>
 
                     <p>We aim to enrich the travel experiences of the crypto community, offering a platform where every journey is enhanced by the innovation and versatility of digital currency. Join us on this journey where travel innovation meets the convenience of cryptocurrency.</p>
                 </div>

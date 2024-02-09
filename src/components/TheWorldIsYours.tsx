@@ -14,7 +14,7 @@ function TheWorldIsYours() {
 
                             <div className="flex flex-col gap-[30px]">
                                 <h1 className='text-[24px] leading-[31.2px] w-[330px] text-center xl:w-[571px] 2xl:w-[671px] xl:text-left text-[#505D65] xl:text-[48px] font-bold xl:leading-[62.4px]'>User-Generated Content Rewards Program</h1>
-                                <h1 className="text-[40px] leading-[44px] text-center xl:w-[571px] 2xl:w-[650px] text-[#13AFB6] xl:text-[60px] xl:leading-[68px] 2xl:text-[80px] 2xl:leading-[88px] font-bold uppercase mt-[40px]">Share Your Journey, Earn Rewards.
+                                <h1 className="text-[40px] leading-[44px] text-center xl:w-[571px] 2xl:w-[650px] text-[#13AFB6] xl:text-[60px] xl:text-left xl:leading-[68px] 2xl:text-[80px] 2xl:leading-[88px] font-bold uppercase mt-[40px]">Share Your Journey, Earn Rewards.
                                     The World Is Yours.</h1>
 
                                 <p className="hidden xl:block text-[#505D65] xl:text-[20px] text-justify xl:leading-[30px] xl:mt-[75px] xl:w-[571px] 2xl:w-[650px]">Become a storyteller of your travels with Fireflies' User-Generated Content Rewards Program. Share your captivating videos and photos, showcasing your unique experiences with accommodations, destinations, and activities booked through Fireflies, and get featured across our platforms. In return, your creativity and insights are rewarded with exclusive digital collectibles, enriching your future travel adventures.</p>

@@ -23,7 +23,7 @@ function TokenBenefits() {
                     <div className="flex flex-col gap-[40px]">
                         <div className="flex flex-col gap-[20px]">
                             <h1 className="text-[#505D65] text-[24px] font-semibold text-center leading-[31.2px] xl:text-left xl:text-[24px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Significant Savings on Bookings</h1>
-                            <p className="text-[#505D65] text-[12px] leading-[18px] text-justify  xl:text-[18px]  xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">Use your $FFT Tokens to unlock significantly reduced prices on a wide range of travel services. From luxurious hotels to exciting adventures, enjoy cost-effective travel like never before.</p>
+                            <p className="text-[#505D65] text-[12px] leading-[18px] text-justify  xl:text-[18px]  xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">Enjoy cost-effective travel using $FFT tokens.</p>
                         </div>
                         <div className="flex flex-col gap-[20px]">
                             <h1 className="text-[#505D65] text-[24px] text-center leading-[31.2px] xl:text-left xl:text-[24px] font-semibold xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Buy and Burn Mechanism</h1>
