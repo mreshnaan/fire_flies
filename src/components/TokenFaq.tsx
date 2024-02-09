@@ -5,10 +5,10 @@ function TokenFaq() {
         <div className='flex items-center w-full flex-col xl:pt-[150px] xl:pb-[100px]'>
             <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
                 <div className='flex items-start gap-[60px] '>
-                    <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px]' titleClassName='w-[100px]' />
+                    <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px] hidden xl:flex' titleClassName='w-[100px]' />
                     <div className="flex flex-col gap-[30px]">
-                        <h1 className='w-[671px] text-[#505D65] text-[48px] leading-[72px] font-bold'>Navigating New Horizons:</h1>
-                        <h1 className='w-[650px] text-left text-[#505D65] text-[80px] font-bold leading-[88px] uppercase'>The $FFT Token Journey Map</h1>
+                        <h1 className='xl:w-[671px] text-[#505D65] xl:text-[48px] xl:leading-[72px] font-bold'>Navigating New Horizons:</h1>
+                        <h1 className='xl:w-[650px] text-left text-[#505D65] xl:text-[80px] font-bold xl:leading-[88px] uppercase'>The $FFT Token Journey Map</h1>
                     </div>
                 </div>
                 <div className='flex flex-col'>

@@ -42,11 +42,11 @@ function App() {
         <RewardProgram />
         <MakingDifferenceSection />
         <TheWorldIsYours />
-        <TokenFaq />
-        <NewsLetter />
-        <Faq />
+        {/* <TokenFaq /> */}
+        {/* <NewsLetter /> */}
+        {/* <Faq /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   )
