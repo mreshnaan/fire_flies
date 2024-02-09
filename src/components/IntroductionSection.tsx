@@ -9,11 +9,10 @@ function IntroductionSection() {
                 <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>HOW IT WORKS?</p>
             </div>
             <div className='flex items-center video-bg1 w-full flex-col pt-[50px] pb-[70px] xl:pt-[150px] xl:pb-[200px] relative'>
-
-                <div className="relative flex flex-col items-center w-[330px] gap-[30px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[80px] 2xl:gap-[140px]">
+                <div className="relative flex flex-col items-center xl:items-stretch w-[330px] gap-[30px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[80px] 2xl:gap-[140px]">
                     <div className='flex justify-between xl:px-10'>
                         <div className='flex items-center xl:items-start xl:gap-[60px] '>
-                            <HorizontalTitle title='Introducing Fireflies WEB3' mainContainerClassName='gap-[100px] hidden' titleClassName='w-[200px] text-[#FFF]' strokeClassName='border-[#FFF]' />
+                            <HorizontalTitle title='Introducing Fireflies WEB3' mainContainerClassName='gap-[100px] hidden xl:flex' titleClassName='w-[200px] text-[#FFF]' strokeClassName='border-[#FFF]' />
                             <div className="flex flex-col gap-[30px]">
                                 <h1 className='text-[24px] leading-[31.2px] xl:w-[400px] xl:text-[38px] xl:leading-[38px] 2xl:w-[799.416px] text-left text-[#FFF] 2xl:text-[48px] font-bold 2xl:leading-[48px] uppercase'>Introducing Fireflies web3</h1>
                                 <p className='w-[325px] text-[12px] leading-[18px] xl:text-[20px] xl:w-[671px] text-[#FFF] xl:leading-[30px] text-justify xl:mt-[41px]'>With Fireflies Web3, we're elevating our platform to new heights, merging the familiar with the cutting-edge world of Web3. This evolution marks a significant leap forward in how we explore and experience the globe, ready to offer you a seamless, innovative, connected way of travel.</p>

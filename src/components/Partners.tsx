@@ -2,7 +2,7 @@ import HorizontalTitle from './HorizontalTitle'
 
 function Partners() {
     return (
-        <div className='flex flex-col items-center pt-[50px] pb-[50px] xl:pb-[100px] xl:pt-[150px]  gap-[140px] xl:w-[1280px] 2xl:w-[1538px]'>
+        <div className='flex flex-col items-center pt-[50px] pb-[50px] xl:pb-[100px] xl:pt-[150px]  gap-[140px] w-[330px] xl:w-[1280px] 2xl:w-[1538px]'>
             <div className='flex flex-col items-center gap-[30px] xl:flex-row xl:gap-[80px] 2xl:gap-[105px]'>
                 <div className='flex flex-col items-center xl:flex-row xl:items-start gap-[60px]'>
                     <HorizontalTitle title='partners' mainContainerClassName='hidden xl:flex' />
