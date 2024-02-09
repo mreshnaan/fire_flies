@@ -32,19 +32,129 @@ function TravelerReward() {
                             With $FFT Tokens, travel becomes more than just an experience; it's an investment in your future adventures. Embrace a world where exploration meets innovation, and every journey adds value to your token portfolio.
                         </p>
 
-                        <div className="block md:hidden mt-10 w-full">
-                            <img
-                                className="w-[90%]"
-                                alt=""
-                                src="/assets/reward-group.png"
-                            />
+                        <div className="flex flex-col items-center md:hidden mt-10 w-full gap-8">
+                            <div className="flex flex-col items-center w-full">
+                                <div
+                                    className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                    <img
+                                        src="/assets/shape9.png"
+                                        alt=""
+                                        className="w-[70%]"
+                                    />
+
+                                    <b className="flex absolute justify-center flex-col items-center top-4 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%]">
+                                        <p className="m-0">$5,000</p>
+                                        <p className="m-0">Token Spent</p>
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col items-center w-full mt-[100px]">
+                                <div
+                                    className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                    <img
+                                        src="/assets/shape7.png"
+                                        alt=""
+                                        className="w-[90%]"
+                                    />
+
+                                    <b className="flex absolute top-[47px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
+                                        <div className="flex gap-3 items-center">
+                                            <div
+                                                className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            <p className="m-0">5 Premium BPO</p>
+                                        </div>
+
+                                        <div className="flex gap-3 items-center">
+                                            <div
+                                                className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            <p className="m-0">1 Eat For Stay Voucher</p>
+                                        </div>
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col items-center w-full mt-[160px]">
+                                <div
+                                    className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                    <img
+                                        src="/assets/shape9.png"
+                                        alt=""
+                                        className="w-[70%]"
+                                    />
+
+                                    <b className="flex absolute justify-center flex-col items-center top-4 z-[3] text-[24px] leading-[26.4px] uppercase text-center w-[70%]">
+                                        <p className="m-0">$10,000</p>
+                                        <p className="m-0">Token Spent</p>
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col items-center w-full mt-[90px]">
+                                <div
+                                    className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                    <img
+                                        src="/assets/shape6.png"
+                                        alt=""
+                                        className="w-[90%]"
+                                    />
+
+                                    <b className="flex absolute top-[47px] justify-start flex-col z-[3] w-[70%] text-[15px] gap-2">
+                                        <div className="flex gap-3 items-center">
+                                            <div
+                                                className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            <p className="m-0 text-wrap">
+                                                Unlock 1-year Access to<br/> Thousands of Exclusive Villas<br/> and
+                                                Apartments
+                                            </p>
+                                        </div>
+
+                                        <div className="flex gap-3 items-center">
+                                            <div
+                                                className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            <p className="m-0">2 Eat For Stay Voucher</p>
+                                        </div>
+
+                                        <div className="flex gap-3 items-center">
+                                            <div
+                                                className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            <p className="m-0">2 VIP Discount Pass</p>
+                                        </div>
+
+                                        <div className="flex gap-3 items-center">
+                                            <div
+                                                className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            <p className="m-0">Zero Distribution Fee for 1 Year</p>
+                                        </div>
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col items-center w-full mt-[250px]">
+                                <div
+                                    className="absolute justify-center flex items-center gap-[18px] max-w-full text-[#FFF]">
+                                    <img
+                                        src="/assets/shape10.png"
+                                        alt=""
+                                        className="w-[95%]"
+                                    />
+
+                                    <b className="flex gap-2 absolute justify-center flex-col items-center top-6 z-[3] text-[24px] text-[#13AFB6] leading-[26.4px] uppercase text-center w-[70%]">
+                                        <p className="m-0">$50,000</p>
+                                        <p className="m-0">Token Spent</p>
+                                        <p className="m-0 text-[30px]">COMING</p>
+                                        <p className="m-0 text-[30px]">SOON</p>
+                                    </b>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div className="md:block hidden mt-[40px] w-full">
                             <div className="flex flex-col">
                                 <div className="relative">
                                     <div className="flex-1 flex flex-row justify-start min-w-[168px]">
-                                    <div className="absolute left-[-10px] flex  items-center justify-start gap-[18px] max-w-full text-[#FFF]">
+                                        <div className="absolute left-[-10px] flex  items-center justify-start gap-[18px] max-w-full text-[#FFF]">
                                             <img
                                                 className="relative z-[2] xl:h-[226px] 2xl:w-[298px] 2xl:h-[220px]"
                                                 alt=""
@@ -69,7 +179,7 @@ function TravelerReward() {
                                             </p>
                                             <p className="m-0">&nbsp;</p>
                                             <div className="flex gap-3 items-center mb-[12px]">
-                                                <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                                <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
                                                 <p className="m-0 ">5 Premium BPO</p>
                                             </div>
                                             <div className="flex gap-3 items-center mb-[12px]">
@@ -144,7 +254,7 @@ function TravelerReward() {
                     </div>
                 </div>
 
-                <div className='flex items-start gap-[60px] '>
+                <div className='flex items-start gap-[60px] xl:mt-0 mt-[200px]'>
                     <div className="md:block hidden">
                         <HorizontalTitle title='PROGRESS' mainContainerClassName={"gap-20"} titleClassName='w-[120px] text-[#FFF]' strokeClassName="border-[#FFF]" />
                     </div>
