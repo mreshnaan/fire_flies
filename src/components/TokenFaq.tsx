@@ -1,9 +1,10 @@
 import HorizontalTitle from './HorizontalTitle'
+import { CustomCarousel } from './Slider'
 
 function TokenFaq() {
     return (
         <div className='flex items-center w-full flex-col xl:pt-[150px] xl:pb-[100px]'>
-            <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
+            <div className="flex flex-col w-[330px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
                 <div className='flex items-start gap-[60px] '>
                     <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px] hidden xl:flex' titleClassName='w-[100px]' />
                     <div className="flex flex-col xl:gap-[30px] gap-3">
@@ -41,25 +42,25 @@ function TokenFaq() {
                                 <b className="flex absolute top-[40px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
                                     <div className="flex gap-3 items-center">
                                         <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">$FFT Smart Contract<br/> Development</p>
+                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">$FFT Smart Contract<br /> Development</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
                                         <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Crowdsale Contract<br/> Development</p>
+                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Crowdsale Contract<br /> Development</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
                                         <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                         <p className="m-0">$FFT Token Audit</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
                                         <div
-                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                            className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                         <p className="m-0">Start of $FFT Pre-Sale</p>
                                     </div>
                                 </b>
@@ -90,23 +91,23 @@ function TokenFaq() {
 
                                 <b className="flex absolute top-[45px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Start of Fireflies Web3<br/> Platform Development</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Start of Fireflies Web3<br /> Platform Development</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Start of High-Spend<br/> Traveler Reward<br/> Development</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Start of High-Spend<br /> Traveler Reward<br /> Development</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Start of Tier-Based<br/> Staking Options<br/> Development</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Start of Tier-Based<br /> Staking Options<br /> Development</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Start of Adventure<br/> Raffles Development</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Start of Adventure<br /> Raffles Development</p>
                                     </div>
                                 </b>
                             </div>
@@ -138,23 +139,23 @@ function TokenFaq() {
 
                                 <b className="flex absolute top-[40px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                         <p className="m-0">$FFT Token Launch</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                         <p className="m-0">DEX Listing</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Launch of 12-Month<br/> Streak NFT Reward Program</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Launch of 12-Month<br /> Streak NFT Reward Program</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Launch of Buy & Burn <br/>Mechanism</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Launch of Buy & Burn <br />Mechanism</p>
                                     </div>
                                 </b>
                             </div>
@@ -184,26 +185,26 @@ function TokenFaq() {
 
                                 <b className="flex absolute top-[46px] justify-start flex-col z-[3] w-[70%] text-[18px] gap-2">
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                         <p className="m-0">CEX Listing</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Partnership Expansion <br/>Initiatives</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Partnership Expansion <br />Initiatives</p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                         <p className="m-0">
-                                            Launch of Environmental <br/>
-                                            and Social Responsibility<br/> NFT Program
+                                            Launch of Environmental <br />
+                                            and Social Responsibility<br /> NFT Program
                                         </p>
                                     </div>
 
                                     <div className="flex gap-3 items-center">
-                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
-                                        <p className="m-0">Launch of User-Generated<br/> Content Rewards Program</p>
+                                        <div className="rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
+                                        <p className="m-0">Launch of User-Generated<br /> Content Rewards Program</p>
                                     </div>
                                 </b>
                             </div>
@@ -226,6 +227,7 @@ function TokenFaq() {
 
 
                     <div className="hidden xl:block relative">
+
                         <div className="flex-1 flex flex-row justify-start min-w-[168px]">
                             <div
                                 className="absolute left-[-10px] flex items-center justify-start gap-[18px] max-w-full text-[#FFF]">
@@ -247,19 +249,19 @@ function TokenFaq() {
                             />
                             <div className="text-[#FFF] absolute left-[298px] top-[40px] z-[2]">
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0 ">$FFT Smart Contract Development</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Crowdsale Contract Development</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">$FFT Token Audit</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Start of $FFT Pre-Sale</p>
                                 </div>
 
@@ -288,19 +290,19 @@ function TokenFaq() {
                             />
                             <div className="text-[#FFF] absolute left-[298px] top-[40px] z-[2]">
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0 ">Start of Fireflies Web3 Platform Development</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Start of High-Spend Traveler Reward Development</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Start of Tier-Based Staking Options Development</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Start of Adventure Raffles Development</p>
                                 </div>
 
@@ -329,19 +331,19 @@ function TokenFaq() {
                             />
                             <div className="text-[#FFF] absolute left-[298px] top-[40px] z-[2]">
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0 ">$FFT Token Launch</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">DEX Listing</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Launch of 12-Month Streak NFT Reward Program</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Launch of Buy & Burn Mechanism</p>
                                 </div>
 
@@ -370,19 +372,19 @@ function TokenFaq() {
                             />
                             <div className="text-[#FFF] absolute left-[298px] top-[40px] z-[2]">
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0 ">CEX Listing</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Partnership Expansion Initiatives</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Launch of Environmental and Social Responsibility NFT Program</p>
                                 </div>
                                 <div className="flex gap-3 items-center mb-[12px]">
-                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]"/>
+                                    <div className=" rounded-[50%] box-border w-5 h-5 z-[2] border-[2px] border-solid border-[#13AFB6]" />
                                     <p className="m-0">Launch of User-Generated Content Rewards Program</p>
                                 </div>
 

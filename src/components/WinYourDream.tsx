@@ -6,10 +6,10 @@ import { CustomCarousel } from './Slider'
 
 function WinYourDream() {
     return (
-        <div className='w-full flex flex-col items-center pb-[50px] xl:pb-[100px] '>
+        <div className='w-full flex flex-col items-center gap-[20px] xl:gap-0 pb-[50px] xl:pb-[100px] '>
             <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
-                <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>WIN YOUR DREAM JOURNeY</p>
+                <div className={"border-b-2 w-[188px] h-[1px] border-[#505D65]"}></div>
+                <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[140px] w-fit"}>WIN YOUR DREAM JOURNeY</p>
             </div>
             <div className='flex items-center video-bg2 w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px] relative '>
                 <div className="relative flex flex-col w-[330px] xl:w-[1280px] 2xl:w-[1538px] gap-[140px] px-6 ">

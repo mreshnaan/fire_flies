@@ -8,10 +8,10 @@ function HowItWorksSection() {
                 <div className='flex flex-col items-center xl:flex-row xl:items-start gap-[60px]'>
                     <HorizontalTitle title='HOW IT WORKS?' titleClassName='w-[100px]' mainContainerClassName='hidden xl:flex' />
                     <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                        <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
+                        <div className={"border-b-2 w-[228px] h-[1px] border-[#505D65]"}></div>
                         <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>HOW IT WORKS</p>
                     </div>
-                    <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[280px] 2xl:w-[380px] xl:text-left text-[#13AFB6] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>How the travel market works?</h1>
+                    <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[280px] 2xl:w-[380px] xl:text-left text-[#13AFB6] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>How the travel market works</h1>
                 </div>
 
                 <img src="/assets/howitworks1.png" alt="" srcSet="" className='w-[330px] xl:w-[800px]  object-contain' />
@@ -24,7 +24,7 @@ function HowItWorksSection() {
                         <div className='w-[30.58px]'></div>
                         <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[280px] 2xl:w-[380px] xl:text-left text-[#505D65] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>How FIREFLIES works</h1>
                     </div>
-
+        
                     <img src="/assets/howitworks2.png" alt="" srcSet="" className='w-[330px] xl:w-[800px]  object-contain' />
                 </div>
 
@@ -44,7 +44,7 @@ function HowItWorksSection() {
                         <span><span className='text-[#13AFB6]'>Scroll down to discover how using $FFT tokens</span> can unlock even deeper discounts for your travels.</span></p>
                 </div>
 
-                <Divider className='mt-[150px]  bg-[#505D65] opacity-30' />
+                <Divider className='hidden xl:flex xl:mt-[150px]  bg-[#505D65] opacity-30' />
 
             </div>
 

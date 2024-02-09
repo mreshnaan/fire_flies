@@ -3,17 +3,21 @@ import HorizontalTitle from './HorizontalTitle'
 
 function Faq() {
     return (
-        <div className='flex items-center w-full flex-col pt-[150px] pb-[100px]'>
-            <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] gap-[140px] px-6 ">
-                <div className='flex items-start gap-[60px] '>
-                    <HorizontalTitle title='FAQ' mainContainerClassName='gap-[10px]' />
+        <div className='flex items-center w-full flex-col pt-[50px] video-bg2 pb-[50px] xl:pt-[150px] xl:pb-[100px]'>
+            <div className="flex flex-col w-[300px] xl:w-[1280px] 2xl:w-[1538px] gap-[70px] xl:gap-[140px] px-6 ">
+                <div className='flex flex-col items-center xl:flex-row xL:items-start gap-[60px] '>
+                    <HorizontalTitle title='FAQ' mainContainerClassName='gap-[10px] hidden xl:block' />
+                    <div className={`xl:hidden flex items-center justify-center gap-10`}>
+                        <div className={"border-b-2 w-[319px] h-[1px] border-[#505D65]"}></div>
+                        <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>FAQ</p>
+                    </div>
                     <div className="flex flex-col gap-[30px]">
-                        <h1 className='w-[799.416px] text-left text-[#13AFB6] text-[80px] font-bold leading-[88px] uppercase'>frequently asked questions</h1>
+                        <h1 className='text-[40px] leading-[44px] text-center xl:w-[799.416px] xl:text-left text-[#13AFB6] xl:text-[80px] font-bold xl:leading-[88px] uppercase'>frequently asked questions</h1>
                     </div>
                 </div>
 
                 <div>
-                    <DynamicAccordion items={[
+                    <DynamicAccordion titleClassName='text-[12px] max-w-[268px] text-left xl:max-w-[917.478px] leading-[18px] xl:text-[24px] xl:leading-[36px]' contentClassName='text-[12px] leading-[18px] xl:text-[20px] xl:leading-[30px]' items={[
                         {
                             title: "Q1 - What is Fireflies?",
                             content:

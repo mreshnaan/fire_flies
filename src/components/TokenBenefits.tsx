@@ -3,14 +3,14 @@ import HorizontalTitle from "./HorizontalTitle"
 
 function TokenBenefits() {
     return (
-        <div className='flex flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:gap-[30px] w-[330px] xl:w-[1280px] 2xl:w-[1538px] xl:pr-4'>
+        <div className='flex flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:gap-[30px] w-[330px] xl:w-[1250px] 2xl:w-[1538px] xl:px-4'>
             <div className='flex flex-col items-center justify-center gap-10 xl:justify-between xl:flex-row xl:gap-[80px] 2xl:gap-[105px]'>
                 <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                    <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
-                    <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>HOW IT WORKS?</p>
+                <div className={"border-b-2 w-[228px] h-[1px] border-[#505D65]"}></div>
+                    <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>exclusive benefits</p>
                 </div>
                 <div className='flex items-start gap-[60px]'>
-                    <HorizontalTitle title='exclusive benefits' mainContainerClassName={"gap-20 hidden"} titleClassName='w-[120px]' />
+                    <HorizontalTitle title='exclusive benefits' mainContainerClassName={"gap-20 hidden xl:flex"} titleClassName='w-[120px]' />
                     <h1 className='text-[40px] leading-[44px] text-center xl:w-[500px] 2xl:w-[676px] xl:text-left text-[#13AFB6] xl:text-[60px] xl:leading-[68px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>Exclusive Travel Benefits with $FFT Tokens</h1>
                 </div>
 

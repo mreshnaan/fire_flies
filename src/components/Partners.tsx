@@ -2,12 +2,12 @@ import HorizontalTitle from './HorizontalTitle'
 
 function Partners() {
     return (
-        <div className='flex flex-col items-center pt-[50px] pb-[50px] xl:pb-[100px] xl:pt-[150px]  gap-[140px] w-[330px] xl:w-[1280px] 2xl:w-[1538px]'>
+        <div className='flex flex-col items-center pt-[50px] pb-[50px] xl:pb-[100px] xl:pt-[150px] gap-[70px]  xl:gap-[140px] w-[330px] xl:w-[1280px] 2xl:w-[1538px]'>
             <div className='flex flex-col items-center gap-[30px] xl:flex-row xl:gap-[80px] 2xl:gap-[105px]'>
                 <div className='flex flex-col items-center xl:flex-row xl:items-start gap-[60px]'>
                     <HorizontalTitle title='partners' mainContainerClassName='hidden xl:flex' />
                     <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                        <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
+                        <div className={"border-b-2 w-[228px] h-[1px] border-[#505D65]"}></div>
                         <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>partners</p>
                     </div>
                     <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[400px] 2xl:w-[671px] xl:text-left text-[#505D65]  font-bold xl:text-[50px] 2xl:text-[80px] 2xl:leading-[88px] uppercase'>Leading the Charge in Crypto Travel Synergy</h1>

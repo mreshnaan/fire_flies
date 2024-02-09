@@ -5,8 +5,8 @@ function IntroductionSection() {
     return (
         <div className='w-full flex flex-col items-center gap-[50px] xl:gap-0 pb-[50px] xl:pb-[100px]'>
             <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
-                <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>HOW IT WORKS?</p>
+                <div className={"border-b-2 w-[190px] h-[1px] border-[#505D65]"}></div>
+                <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[140px] w-fit"}>introducing Firelies web3</p>
             </div>
             <div className='flex items-center video-bg1 w-full flex-col pt-[50px] pb-[70px] xl:pt-[150px] xl:pb-[200px] relative'>
                 <div className="relative flex flex-col items-center xl:items-stretch w-[330px] gap-[30px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[80px] 2xl:gap-[140px]">
