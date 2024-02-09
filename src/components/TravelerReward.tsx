@@ -32,11 +32,19 @@ function TravelerReward() {
                             With $FFT Tokens, travel becomes more than just an experience; it's an investment in your future adventures. Embrace a world where exploration meets innovation, and every journey adds value to your token portfolio.
                         </p>
 
-                        <div className="mt-[40px] w-full">
+                        <div className="block md:hidden mt-10 w-full">
+                            <img
+                                className="w-[90%]"
+                                alt=""
+                                src="/assets/reward-group.png"
+                            />
+                        </div>
+
+                        <div className="md:block hidden mt-[40px] w-full">
                             <div className="flex flex-col">
                                 <div className="relative">
                                     <div className="flex-1 flex flex-row justify-start min-w-[168px]">
-                                        <div className="absolute left-[-10px] flex  items-center justify-start gap-[18px] max-w-full text-[#FFF]">
+                                    <div className="absolute left-[-10px] flex  items-center justify-start gap-[18px] max-w-full text-[#FFF]">
                                             <img
                                                 className="relative z-[2] xl:h-[226px] 2xl:w-[298px] 2xl:h-[220px]"
                                                 alt=""
