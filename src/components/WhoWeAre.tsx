@@ -3,8 +3,8 @@ import Status from "./Status"
 
 function WhoWeAre() {
   return (
-    <div className=" grid grid-cols-1  xl:grid-cols-2 xl:p-[80px] xl:gap-20 2x:pl-[140px] 2xl:pr-[240px] 2xl:pt-[100px] 2xl:pb-[150px] 2xl:gap-36">
-      <div className="flex flex-col items-center xl:flex-row xl:items-start xl:gap-[50px] 2xl:gap-[60px]">
+    <div className=" grid grid-cols-1 gap-[40px] pb-[50px] xl:grid-cols-2 xl:p-[80px] xl:gap-20 2x:pl-[140px] 2xl:pr-[240px] 2xl:pt-[100px] 2xl:pb-[150px] 2xl:gap-36">
+      <div className="flex flex-col items-center xl:flex-row xl:items-start gap-[40px] xl:gap-[50px] 2xl:gap-[60px]">
         <HorizontalTitle title={"who we are"} mainContainerClassName="hidden xl:flex" />
         <div className={`xl:hidden flex items-center justify-center gap-10`}>
           <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
@@ -12,8 +12,20 @@ function WhoWeAre() {
         </div>
 
 
-        <span>
-          <svg className="w-[246px] h-[150px] xl:w-[410px] xl:h-[450px] 2xl:w-[610px] 2xl:h-[665px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 665" fill="none">
+        <span >
+          <svg className="w-[250px] h-[257px] xl:hidden" xmlns="http://www.w3.org/2000/svg" width="250" height="257" viewBox="0 0 250 257" fill="none">
+            <path d="M40.8922 11.1513H55.5615L63.6877 41.4045L76.3519 0.92928H95.5592L70.8641 72.0707H57.2501L48.0685 37.4809L39.2036 72.0707H25.4841L1 0.92928H20.1018L32.6604 41.4045L40.8922 11.1513Z" fill="#505D65" />
+            <path d="M120.551 29.0141H142.713V0.92928H160.654V72.0707H142.713V44.3989H120.551V72.0707H102.927V0.92928H120.551V29.0141Z" fill="#505D65" />
+            <path d="M172.809 36.5516C172.809 26.4328 176.397 17.8628 183.574 10.7383C190.855 3.61386 199.615 0 209.852 0C220.194 0 228.954 3.61386 236.13 10.7383C243.412 17.8628 247 26.4328 247 36.5516C247 46.5672 243.412 55.2405 236.13 62.3649C228.954 69.4894 220.194 73 209.852 73C199.615 73 190.961 69.4894 183.679 62.3649C176.397 55.2405 172.809 46.5672 172.809 36.5516ZM209.852 55.6535C215.234 55.6535 219.878 53.7949 223.571 50.0778C227.371 46.3607 229.27 41.8175 229.27 36.5516C229.27 31.2857 227.371 26.7426 223.571 23.0255C219.772 19.2051 215.234 17.3465 209.852 17.3465C204.469 17.3465 199.931 19.2051 196.238 23.0255C192.544 26.7426 190.644 31.2857 190.644 36.5516C190.644 41.8175 192.544 46.3607 196.238 50.0778C199.931 53.7949 204.469 55.6535 209.852 55.6535Z" fill="#505D65" />
+            <path d="M89.8787 102.345H104.543L112.666 132.964L125.326 92H144.527L119.84 164H106.231L97.0526 128.993L88.1907 164H74.4758L50 92H69.0954L81.6497 132.964L89.8787 102.345Z" fill="#505D65" />
+            <path d="M200 148.743V164H151.892V92H199.051V107.257H169.511V121.051H195.464V135.994H169.511V148.743H200Z" fill="#505D65" />
+            <path d="M72.9672 256.072H54.2224L48.08 239.781H25.0991L18.9566 256.072H0L26.8994 185.031H46.1737L72.9672 256.072ZM43.5262 224.934L36.4307 201.528L29.8646 224.934H43.5262Z" fill="#505D65" />
+            <path d="M97.6419 232.357V256.072H79.956V185.031H110.138C118.187 185.031 124.329 187.403 128.671 192.042C133.013 196.682 135.132 202.25 135.132 208.746C135.132 214.107 133.649 218.953 130.578 223.181C127.612 227.408 123.27 230.192 117.658 231.532L135.449 256.072H114.904L99.2304 232.357H97.6419ZM109.291 200.085H97.6419V217.51H109.291C119.881 218.025 119.881 199.466 109.291 200.085Z" fill="#505D65" />
+            <path d="M196.195 241.018V256.072H147.904V185.031H195.242V200.085H165.589V213.695H191.642V228.439H165.589V241.018H196.195Z" fill="#505D65" />
+            <path d="M230.937 232.254H215.793V231.017C215.793 226.171 216.005 223.799 217.382 220.191C218.759 216.582 221.83 214.004 226.807 211.942L230.726 210.292C233.161 209.364 234.326 207.612 234.326 205.137C234.326 201.528 231.573 199.569 227.337 199.569C223.63 199.569 220.559 202.353 220.559 206.168H205.309C205.309 191.836 213.993 184 227.654 184C234.326 184 239.727 185.856 243.858 189.465C247.988 193.073 250 198.023 250 204.106C250 213.901 244.917 220.603 236.444 223.593C232.208 225.14 230.937 227.305 230.937 232.254ZM213.569 247.411C213.569 242.049 218.017 238.028 223.524 238.028C229.137 238.028 233.691 242.049 233.691 247.411C233.691 252.876 229.137 257 223.524 257C218.017 257 213.569 252.876 213.569 247.411Z" fill="#505D65" />
+          </svg>
+
+          <svg className="hidden xl:block xl:w-[410px] xl:h-[450px] 2xl:w-[610px] 2xl:h-[665px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 665" fill="none">
             <path d="M98.9686 27.9495H134.887L154.784 103.776L185.792 2.32913H232.822L172.355 180.637H139.021L116.54 93.9415L94.8341 180.637H61.2416L1.29202 2.32913H48.0631L78.8131 103.776L98.9686 27.9495Z" fill="#505D65" />
             <path d="M294.015 72.7206H348.28V2.32913H392.208V180.637H348.28V111.281H294.015V180.637H250.861V2.32913H294.015V72.7206Z" fill="#505D65" />
             <path d="M421.969 91.6124C421.969 66.2508 430.755 44.771 448.326 26.9144C466.156 9.05772 487.604 0 512.669 0C537.992 0 559.44 9.05772 577.011 26.9144C594.841 44.771 603.627 66.2508 603.627 91.6124C603.627 116.715 594.841 138.454 577.011 156.31C559.44 174.167 537.992 182.966 512.669 182.966C487.604 182.966 466.414 174.167 448.585 156.31C430.755 138.454 421.969 116.715 421.969 91.6124ZM512.669 139.489C525.847 139.489 537.217 134.831 546.261 125.514C555.564 116.198 560.215 104.811 560.215 91.6124C560.215 78.414 555.564 67.0271 546.261 57.7106C536.959 48.1353 525.847 43.4771 512.669 43.4771C499.49 43.4771 488.379 48.1353 479.335 57.7106C470.29 67.0271 465.639 78.414 465.639 91.6124C465.639 104.811 470.29 116.198 479.335 125.514C488.379 134.831 499.49 139.489 512.669 139.489Z" fill="#505D65" />
@@ -26,13 +38,13 @@ function WhoWeAre() {
           </svg>
         </span>
       </div>
-      <div className="flex flex-col gap-[30px]">
-        <h1 className="text-[#505D65] 2xl:text-[32px] 2xl:leading-[41px] font-bold">Welcome to Fireflies, your trusted companion in the realm of travel.</h1>
-        <div className="flex flex-col gap-[30px] text-[20px] leading-[30px] text-justify text-[#505D65]">
+      <div className="flex flex-col gap-[30px] items-center xl:items-baseline">
+        <h1 className="text-[#505D65] text-[20px] leading-[26px] w-[325px] xl:w-full 2xl:text-[32px] 2xl:leading-[41px] font-bold">Welcome to Fireflies, your trusted companion in the realm of travel.</h1>
+        <div className="flex flex-col gap-[30px] w-[325px] text-[12px] leading-[18px] xl:w-full xl:text-[20px] xl:leading-[30px] text-justify text-[#505D65]">
           <p>Since our inception in 2011, we have been dedicated to redefining the travel experience for people around the globe. With users from over 165 countries and a vast array of over 5.1 million accommodations and 800 airlines, Fireflies stands as a leading online tourism booking portal, committed to bringing you unparalleled travel experiences.</p>
           <p>At Fireflies, we believe in making the world more accessible and enjoyable for everyone. Our platform is not just about booking your next trip; it’s about creating memories that last a lifetime. Whether you're seeking adventure, relaxation, cultural immersion, or business travel, we cater to all your needs with ease and efficiency.</p>
         </div>
-        <div className="grid grid-cols-3 gap-[53px]">
+        <div className="grid grid-cols-3 gap-5 xl:gap-[53px] ">
           <Status title="165" subTitle="Countries" />
           <Status title="800" subTitle="Airlines" />
           <Status title="5.1M" subTitle="Accommodations" />

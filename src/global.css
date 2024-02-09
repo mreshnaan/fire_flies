@@ -110,4 +110,23 @@
   .making-difference-bg {
     background: linear-gradient(96deg, #13AFB6 0%, #03659C 100%);
   }
+
+  .square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #4A90E2;
+  }
+
+  .square::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #4A90E2 transparent;
+    /* Transparent on the sides, blue at the bottom */
+  }
 }
