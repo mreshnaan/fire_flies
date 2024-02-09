@@ -2,8 +2,8 @@ import HorizontalTitle from './HorizontalTitle'
 
 function TokenFaq() {
     return (
-        <div className='flex items-center w-full flex-col pt-[150px] pb-[100px]'>
-            <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] gap-[140px] px-6 ">
+        <div className='flex items-center w-full flex-col xl:pt-[150px] xl:pb-[100px]'>
+            <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
                 <div className='flex items-start gap-[60px] '>
                     <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px]' titleClassName='w-[100px]' />
                     <div className="flex flex-col gap-[30px]">

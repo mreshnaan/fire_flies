@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sofiaPro: ["Sofia Pro", "sans-serif"],
+      },
       screens: {
         "2xl": "1540px",
       },
