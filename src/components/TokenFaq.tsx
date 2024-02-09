@@ -12,7 +12,7 @@ function TokenFaq() {
                     </div>
                 </div>
                 <div className='flex flex-col'>
-                    <div className="relative">
+                    <div className="hidden xl:block relative">
                         <div className="flex-1 flex flex-row justify-start min-w-[168px]">
                             <div className="absolute left-[-10px] flex items-center justify-start gap-[18px] max-w-full text-[#FFF]">
                                 <img
@@ -53,7 +53,7 @@ function TokenFaq() {
                         </div>
                     </div>
 
-                    <div className="relative">
+                    <div className="hidden xl:block relative">
                         <div className="flex-1 flex flex-row justify-start min-w-[168px]">
                             <div className="absolute left-[-10px] flex items-center justify-start gap-[18px] max-w-full text-[#FFF]">
                                 <img
@@ -94,7 +94,7 @@ function TokenFaq() {
                         </div>
                     </div>
 
-                    <div className="relative">
+                    <div className="hidden xl:block relative">
                         <div className="flex-1 flex flex-row justify-start min-w-[168px]">
                             <div className="absolute left-[-10px] flex items-center justify-start gap-[18px] max-w-full text-[#FFF]">
                                 <img
@@ -135,7 +135,7 @@ function TokenFaq() {
                         </div>
                     </div>
 
-                    <div className="relative">
+                    <div className="hidden xl:block relative">
                         <div className="flex-1 flex flex-row justify-start min-w-[168px]">
                             <div className="absolute left-[-10px] flex items-center justify-start gap-[18px] max-w-full text-[#FFF]">
                                 <img
@@ -175,7 +175,7 @@ function TokenFaq() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1 flex flex-row justify-start relative">
+                    <div className="hidden xl:flex flex-1  flex-row justify-start relative">
                         <img
                             className="self-stretch  w-[1440px] h-[236px] flex-1 relative max-w-full overflow-hidden max-h-full z-[1]"
                             alt=""
