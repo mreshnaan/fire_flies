@@ -36,17 +36,17 @@ function App() {
         <IntroductionSection />
         <VideoSection mainContainerClassName='video-bg2' />
         <TokenBenefits />
-        {/* <TravelerReward /> */}
-        {/* <StackingOptions /> */}
-        {/* <WinYourDream /> */}
-        {/* <RewardProgram /> */}
-        {/* <MakingDifferenceSection /> */}
-        {/* <TheWorldIsYours /> */}
-        {/* <TokenFaq /> */}
-        {/* <NewsLetter /> */}
-        {/* <Faq /> */}
+        <TravelerReward />
+        <StackingOptions />
+        <WinYourDream />
+        <RewardProgram />
+        <MakingDifferenceSection />
+        <TheWorldIsYours />
+        <TokenFaq />
+        <NewsLetter />
+        <Faq />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

@@ -1,5 +1,3 @@
-import { CustomCarousel } from "./Slider"
-import { CustomCarousel2 } from "./Slider2"
 import TeamPerson from "./TeamPerson"
 import WhatWeDo from "./WhatWeDo"
 
