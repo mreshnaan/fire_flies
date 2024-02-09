@@ -47,6 +47,7 @@ function App() {
         <Faq />
       </div>
       <Footer />
+      
     </div>
   )
 }
