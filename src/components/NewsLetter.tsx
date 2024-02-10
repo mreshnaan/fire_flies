@@ -1,5 +1,8 @@
 import HorizontalTitle from "./HorizontalTitle"
+import { useEffect, useState } from "react";
+  import { createClient } from "@supabase/supabase-js";
 
+  
 function NewsLetter() {
     return (
         <div className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[100px] px-6'>
