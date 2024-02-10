@@ -2,10 +2,13 @@ import { Disclosure } from '@headlessui/react'
 
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'About Fireflies', href: '#', current: true },
+  { name: 'Fireflies WEB3', href: '#', current: false },
+  { name: '$FFT Token Benefits', href: '#', current: false },
+  { name: 'Digital Collectibles', href: '#', current: false },
+  { name: 'Tokenomics', href: '#', current: false },
+  { name: 'Roadmap', href: '#', current: false },
+  { name: 'FAQ', href: '#', current: false },
 ]
 
 function classNames(...classes: any[]) {
