@@ -42,6 +42,9 @@ function Footer() {
                     <p className="text-[10px] leading-[13px] xl:text-[20px] xl:leading-[26px] font-bold text-center">Hotline <br></br>24/7</p>
                 </div>
             </div>
+
+
+            <a href="https://cmmnwxfnonpnqpsrhicb.supabase.co/storage/v1/object/public/fireflies/Privacy%20Policy.pdf?t=2024-02-10T09%3A53%3A25.539Z" target="_blank" className="mt-12 text-white no-underline text-sm md:text-xl"> Privacy Policy</a>
         </div>
     )
 }
