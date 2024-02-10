@@ -89,7 +89,7 @@ function RewardProgram() {
                         <h1 className='text-[#505D65] text-[24px] leading-[31.2px] uppercase text-center mb-[30px]'>HOTEL STAYS<br></br>
                             Streak Reward</h1>
                         <div className='bg-[url("/assets/shape7.png")] w-[426px] h-[198px] bg-no-repeat bg-contain flex items-center justify-center'>
-                            <p className='w-[318px] text-[#FFF] text-center text-[20px] leading-[30px]'><span className='font-bold uppercase'>Criteria:</span>Stay a total of 50 nights in hotels booked through Fireflies within a 12-month period.</p>
+                            <p className='w-[318px] text-[#FFF] text-center text-[20px] leading-[30px]'><span className='font-bold uppercase'>Criteria:</span> Stay a total of 50 nights in hotels booked through Fireflies within a 12-month period.</p>
                         </div>
                         <div className='bg-[url("/assets/shape8.png")] w-[426px] h-[385px] bg-no-repeat bg-contain flex items-center justify-center'>
                             <div className="flex flex-col gap-4 justify-center items-cente w-[318px] text-center">
