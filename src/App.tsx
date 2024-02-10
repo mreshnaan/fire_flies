@@ -43,22 +43,22 @@ function App() {
   }, []);
  
 
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://consent.cookiebot.com/d5680a78-100a-41f5-8d0a-62e9bb62721d/cd.js";
-    script.async = true;
-    script.id = "CookieDeclaration";
-    script.type = "text/javascript";
-    document.body.appendChild(script); // or document.head.appendChild(script), depending on your specific requirement
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "https://consent.cookiebot.com/d5680a78-100a-41f5-8d0a-62e9bb62721d/cd.js";
+  //   script.async = true;
+  //   script.id = "CookieDeclaration";
+  //   script.type = "text/javascript";
+  //   document.body.appendChild(script); // or document.head.appendChild(script), depending on your specific requirement
 
-    // Cleanup function
-    return () => {
-      const existingScript = document.getElementById("CookieDeclaration");
-      if (existingScript) {
-        document.body.removeChild(existingScript); // or document.head.removeChild(existingScript), matching the appendChild call
-      }
-    };
-  }, []); 
+  //   // Cleanup function
+  //   return () => {
+  //     const existingScript = document.getElementById("CookieDeclaration");
+  //     if (existingScript) {
+  //       document.body.removeChild(existingScript); // or document.head.removeChild(existingScript), matching the appendChild call
+  //     }
+  //   };
+  // }, []); 
 
   return (
     <div className='w-full min-h-screen'>
