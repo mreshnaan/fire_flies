@@ -56,6 +56,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
      <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider chains={chains}>
     <RouterProvider router={router} />
+  
     </RainbowKitProvider>
     </WagmiConfig>
   </React.StrictMode>,

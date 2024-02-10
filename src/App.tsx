@@ -18,7 +18,7 @@ import StackingOptions from "./components/StackingOptions"
 import WinYourDream from "./components/WinYourDream"
 import TokenFaq from "./components/TokenFaq"
 import { useEffect } from "react"
-
+import { Toaster } from "@/components/ui/toaster"
 
 
 function App() {
@@ -84,7 +84,7 @@ function App() {
         <Faq />
       </div>
       <Footer />
-    
+      <Toaster />
     </div>
   )
 }

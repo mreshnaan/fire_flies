@@ -1,9 +1,40 @@
 import HorizontalTitle from "./HorizontalTitle"
-import { useEffect, useState } from "react";
-  import { createClient } from "@supabase/supabase-js";
+import {  useState } from "react";
 
-  
+import { LoadingSpinner } from "./ui/spinner";
+import { supabase } from "@/lib/supabase";
+import { useToast } from "./ui/use-toast";
+
+
+
 function NewsLetter() {
+
+    const {toast} = useToast();
+    const [loading, setLoading] = useState(false);
+    const [email, setEmail] = useState("");
+    async function sub(e:any){
+        e.preventDefault();
+        if(email) {
+            try {
+                setLoading(true);
+                await supabase.from('fireflies').upsert({
+                    email
+                })
+                toast({
+                    title:"Success"
+                })
+                setEmail("")
+                setLoading(false);
+            } catch (error) {
+                setLoading(false);
+                toast({
+                    title:"Something went wrong",
+                    variant:"destructive"
+                })
+            }
+        }
+    }
+
     return (
         <div className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[100px] px-6'>
             <div className="flex flex-col xl:flex-row w-[330px] gap-8 xl:w-[1280px] 2xl:w-[1538px] xl:gap-[80px] 2xl:gap-[140px] ">
@@ -27,12 +58,13 @@ function NewsLetter() {
                     <div>
                         <form action="">
                             <div className="flex relative">
-                                <input type="text" className="bg-[#F1F1F2] w-[330px] h-[50px] text-[16px] leading-[24px] pl-[24px]  xl:pl-[28px] xl:w-[510px] 2xl:w-[610px] xl:h-[70px] rounded-[50px] placeholder:text-[#505D65] xl:text-[20px] text-justify xl:leading-[30px]" placeholder="Your Email Address" />
-                                <button className="absolute w-[135px] h-[50px] text-[12px] left-[200px] leading-[15.6px] xl:left-[307px] 2xl:left-[407px] xl:text-[18px] xl:leading-[23px] font-bold uppercase subscription-btn-bg xl:w-[207px] xl:h-[70px] xl:gap-[12px] rounded-[50px] text-[#FFF] flex items-center justify-center">
-                                    <svg className="w-[24px] h-[24px] xl:w-[30px] xl:h-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
+                                <input value={email} onChange={e => setEmail(e.target.value)} type="text" className="bg-[#F1F1F2] w-[330px] h-[50px] text-[16px] leading-[24px] pl-[24px]  xl:pl-[28px] xl:w-[510px] 2xl:w-[610px] xl:h-[70px] rounded-[50px] placeholder:text-[#505D65] xl:text-[20px] text-justify xl:leading-[30px]" placeholder="Your Email Address" />
+                                <button onClick={(e) => {sub(e)}} className="absolute w-[135px] h-[50px] text-[12px] left-[200px] leading-[15.6px] xl:left-[307px] 2xl:left-[407px] xl:text-[18px] xl:leading-[23px] font-bold uppercase subscription-btn-bg xl:w-[207px] xl:h-[70px] xl:gap-[12px] rounded-[50px] text-[#FFF] flex items-center justify-center">
+                                    {!loading && <svg className="w-[24px] h-[24px] xl:w-[30px] xl:h-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
                                         <path d="M8.26885 6.68759L20.6968 2.54584C26.2739 0.68718 29.3041 3.73129 27.4596 9.30727L23.317 21.7325C20.5357 30.0892 15.9686 30.0892 13.1873 21.7325L11.9577 18.0445L8.26885 16.8151C-0.0896155 14.0344 -0.0896155 9.4829 8.26885 6.68759Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M12 17L17 12" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                    </svg>}
+                                    {loading && <LoadingSpinner className="text-white stroke-white"/>}
                                     SUBSCRIBE</button>
                             </div>
                         </form>
