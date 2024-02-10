@@ -21,7 +21,7 @@ function TheWorldIsYours() {
 
                             </div>
                         </div>
-                        <img src="/assets/win-your-dream.png" alt="" className=" w-[330px] h-auto object-contain  xl:block xl:w-[504px] xl:h-[527px] 2xl:w-[704px] 2xl:h-[727px]" />
+                        <img src="/assets/win-your-dream5.png" alt="" className=" w-[330px] h-auto object-contain  xl:block xl:w-[504px] xl:h-[527px] 2xl:w-[704px] 2xl:h-[727px]" />
                     </div>
                 </div>
             </div>
