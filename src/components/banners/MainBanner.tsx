@@ -23,7 +23,7 @@ function MainBanner() {
                             </defs>
                         </svg>
                     </Link>
-                    <Link to="https://t.me/+UgyhAhitLHg3ZDQ0" className="hidden xl:block" >
+                    <Link to="https://www.facebook.com/travelenlightened" className="hidden xl:block" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="30" viewBox="0 0 13 30" fill="none">
                             <g clip-path="url(#clip0_0_811)">
                                 <path d="M2.94785 30H8.61754V14.8692H12.5775L13 9.80467H8.61754V6.91664C8.61754 5.72375 8.84354 5.25288 9.92441 5.25288H12.9902V0H9.05971C4.85412 0 2.94785 1.97768 2.94785 5.76561V9.80467H0V14.932H2.94785V29.9895V30Z" fill="#505D65" />

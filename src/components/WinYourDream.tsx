@@ -85,9 +85,9 @@ function WinYourDream() {
                         <p className='w-[247px] text-[#505D65] text-[20px] leading-[30px]'>Winners will be announced on our platform. Share your excitement and prepare for your next adventure!</p>
                     </div>
                 </div>
-                <div className='w-[330px] h-[403px] xl:w-[1180px] 2xl:w-[1440px] xl:h-[239px] flex items-center justify-center bg-[#F1F1F2] mb-[32px]'>
+                {/* <div className='w-[330px] h-[403px] xl:w-[1180px] 2xl:w-[1440px] xl:h-[239px] flex items-center justify-center bg-[#F1F1F2] mb-[32px]'>
                     <p className='text-[#505D65] text-[12px] leading-[12px] font-bold'>GRAPHIC HERE</p>
-                </div>
+                </div> */}
                 <Charitable />
             </div>
         </div>
