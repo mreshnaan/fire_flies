@@ -4,7 +4,7 @@ import { useState } from "react";
 import { LoadingSpinner } from "./ui/spinner";
 import { supabase } from "@/lib/supabase";
 import { useToast } from "./ui/use-toast";
-import { Input } from "./ui/input";
+
 
 function NewsLetter() {
   const { toast } = useToast();

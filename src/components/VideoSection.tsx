@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import ReactPlayer from 'react-player'
 import { VideoPlayer } from "./VideoPlayer";
 function VideoSection({ mainContainerClassName, videoUrl }: { mainContainerClassName?: string , videoUrl:string}) {
     return (
