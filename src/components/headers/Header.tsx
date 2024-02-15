@@ -55,7 +55,7 @@ export default function Header() {
                       as="a"
                       onClick={() => smoothScroll(item.href)}
                       className={classNames(
-                        item.current ? 'text-[#69EAFF]' : 'text-[#505D65] hover:text-[#69EAFF]',
+                        item.current ? 'text-[#505D65]' : 'text-[#505D65] hover:text-[#439ca9]',
                         'flex items-center gap-5 px-3 py-4 text-base font-medium cursor-pointer'
                       )}
                       aria-current={item.current ? 'page' : undefined}
@@ -151,7 +151,7 @@ export default function Header() {
                     as="a"
                     onClick={() => smoothScroll(item.href)}
                     className={classNames(
-                      item.current ? 'text-[#69EAFF]' : 'text-[#505D65] hover:text-[#69EAFF]',
+                      item.current ? 'text-[#505D65]' : 'text-[#505D65] hover:text-[#439ca9]',
                       'flex items-center gap-5 px-3 py-4 text-base font-medium'
                     )}
                     aria-current={item.current ? 'page' : undefined}
