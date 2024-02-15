@@ -10,7 +10,8 @@ function NewsLetter() {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState("");
-  async function sub(e: any) {
+
+  const handleSubmit = async (e :any) => {
     e.preventDefault();
     if (email) {
       try {
@@ -31,7 +32,7 @@ function NewsLetter() {
         });
       }
     }
-  }
+  };
 
   return (
     <div className="flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[100px] px-6">
@@ -59,7 +60,7 @@ function NewsLetter() {
             <h1 className=" text-[24px] leading-[31.2px] text-center xl:w-[550px] 2xl:w-[671px] xl:text-left text-[#505D65] 2xl:text-[48px] font-bold 2xl:leading-[62.4px] xl:text-[28px] xl:leading-[28px]">
               Fireflies $FFT Token<br></br> Newsletter
             </h1>
-            <h1 className=" text-[40px] leading-[44px] text-center xl:w-[550px] 2xl:w-[671px] 2xl:text-[80px] text-[#505D65] 2xl:leading-[88px] uppercase font-bold xl:text-[60px] xl:leading-[68px]">
+            <h1 className=" text-[40px] leading-[44px] text-center xl:text-left xl:w-[550px] 2xl:w-[671px] 2xl:text-[80px] text-[#505D65] 2xl:leading-[88px] uppercase font-bold xl:text-[60px] xl:leading-[68px]">
               <span className="text-[#F6484F]">Stay Informed:</span> Subscribe
               for the Latest on $FFT Token
             </h1>
@@ -76,19 +77,19 @@ function NewsLetter() {
             you informed and ahead of the curve.
           </p>
           <div>
-            <form action="">
+          <form onSubmit={handleSubmit}>
               <div className="flex items-center relative bg-[#F1F1F2] w-[330px] h-[50px]  pl-[24px]  xl:pl-[28px] xl:w-[510px] 2xl:w-[610px] xl:h-[70px] rounded-[50px] overflow-hidden">
                 <input
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  type="text"
-                  className="bg-[#F1F1F2] placeholder:text-[#505D65] md:w-full xl:text-[20px] text-[16px] leading-[24px] text-justify xl:leading-[30px] focus-visible:ring-0 border-none  rounded-none focus-visible:outline-none outline-none border-0 focus:ring-0"
+                  type="email"
+                  className="bg-[#F1F1F2] placeholder:text-[#505D65] md:w-full xl:text-[20px] text-[16px] leading-[24px] text-justify xl:pr-[14rem] xl:leading-[30px] focus-visible:ring-0 border-none  rounded-none focus-visible:outline-none outline-none border-0 focus:ring-0"
                   placeholder="Your Email Address"
+                  required
                 />
                 <button
-                  onClick={(e) => {
-                    sub(e);
-                  }}
+                  type="submit"
+        
                   className="absolute w-[135px] h-[50px] text-[12px] left-[200px] leading-[15.6px] xl:left-[307px] 2xl:left-[407px] xl:text-[18px] xl:leading-[23px] font-bold uppercase subscription-btn-bg xl:w-[207px] xl:h-[70px] xl:gap-[12px] rounded-[50px] text-[#FFF] flex items-center justify-center"
                 >
                   {!loading && (

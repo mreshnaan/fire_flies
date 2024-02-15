@@ -26,6 +26,7 @@
     "cloudinary-video-player": "^1.10.5",
     "clsx": "^2.1.0",
     "embla-carousel-react": "^8.0.0-rc22",
+    "framer-motion": "^11.0.5",
     "localforage": "^1.10.0",
     "lucide-react": "^0.309.0",
     "match-sorter": "^6.3.2",
