@@ -40,7 +40,7 @@ function NewsLetter() {
         <div className="flex flex-col items-center xl:flex-row xL:items-start gap-[30px] xl:gap-[60px] ">
           <HorizontalTitle
             title="newsletter"
-            mainContainerClassName="gap-[10px] hidden xl:block"
+            mainContainerClassName="gap-[60px] hidden xl:flex"
           />
           <div
             className={`xl:hidden flex items-center justify-center gap-[20px]`}

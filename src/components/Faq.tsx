@@ -6,7 +6,7 @@ function Faq() {
         <div id='faq' className='flex items-center w-full flex-col pt-[50px] video-bg2 pb-[50px] xl:pt-[150px] xl:pb-[100px]'>
             <div className="flex flex-col w-[300px] xl:w-[1280px] 2xl:w-[1538px] gap-[70px] xl:gap-[140px] px-6 ">
                 <div className='flex flex-col items-center xl:flex-row xL:items-start gap-[60px] '>
-                    <HorizontalTitle title='FAQ' mainContainerClassName='gap-[10px] hidden xl:block' />
+                    <HorizontalTitle title='FAQ' mainContainerClassName='gap-[10px] hidden xl:flex' />
                     <div className={`xl:hidden flex items-center justify-center gap-10`}>
                         <div className={"border-b-2 w-[319px] h-[1px] border-[#505D65]"}></div>
                         <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>FAQ</p>

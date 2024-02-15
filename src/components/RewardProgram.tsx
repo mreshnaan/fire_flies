@@ -10,7 +10,7 @@ function RewardProgram() {
                     <div className='flex items-start gap-[60px] '>
                         <HorizontalTitle title='Introducing Fireflies WEB3' mainContainerClassName='gap-[100px] hidden xl:flex' titleClassName='w-[200px] text-[#505D65]' strokeClassName='border-[#505D65]' />
                         <div className="flex flex-col gap-[30px]">
-                            <h1 className=' text-[24px] leading-[31.2px] xl:w-[500px] 2xl:w-[671px] text-[#505D65]  2xl:text-[48px]  2xl:leading-[62.4px] font-bold'>Fireflies Digital Collectibles</h1>
+                            <h1 className=' text-[24px] leading-[31.2px] xl:w-[500px] 2xl:w-[671px] text-[#505D65]  2xl:text-[48px] text-center xl:text-center  2xl:leading-[62.4px] font-bold'>Fireflies Digital Collectibles</h1>
                             <h1 className=' text-[40px] leading-[44px] text-center xl:text-[60px] xl:leading-[68px] xl:w-[700px] 2xl:w-[948px] xl:text-left text-[#505D65] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>12-Month Streak NFT Reward Program</h1>
                         </div>
                     </div>
