@@ -2,7 +2,7 @@ import HorizontalTitle from "./HorizontalTitle"
 
 function TravelerReward() {
     return (
-        <div className='flex video-bg1 items-center w-full flex-col xl:pt-[150px] pt-10 pb-[100px]'>
+        <div id="digital-collectibles" className='flex video-bg1 items-center w-full flex-col xl:pt-[150px] pt-10 pb-[100px]'>
             <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] max-w-[100%] xl:gap-[140px] gap-10 xl:px-8 px-5">
                 <div className='flex items-start gap-[60px]'>
                     <div className="xl:block hidden">

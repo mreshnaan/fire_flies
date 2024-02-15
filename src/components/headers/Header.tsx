@@ -1,23 +1,41 @@
 import { Disclosure } from '@headlessui/react'
 import { Link } from 'react-router-dom'
+import { animate } from 'framer-motion';
 
 const navigation = [
-  { name: 'About Fireflies', href: '#', current: true },
-  { name: 'Fireflies WEB3', href: '#', current: false },
-  { name: '$FFT Token Benefits', href: '#', current: false },
-  { name: 'Digital Collectibles', href: '#', current: false },
-  { name: 'Tokenomics', href: '#', current: false },
-  { name: 'Roadmap', href: '#', current: false },
-  { name: 'FAQ', href: '#', current: false },
+  { name: 'About Fireflies', href: '#about', current: true },
+  { name: 'Fireflies WEB3', href: '#fweb3', current: false },
+  { name: '$FFT Token Benefits', href: '#fft-tb', current: false },
+  { name: 'Digital Collectibles', href: '#digital-collectibles', current: false },
+  { name: 'Tokenomics', href: '#tokenomics', current: false },
+  { name: 'Roadmap', href: '#roadmap', current: false },
+  { name: 'FAQ', href: '#faq', current: false },
 ]
 
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
 }
 
+
+const smoothScroll = (target: any) => {
+  const element = document.querySelector(target);
+  if (element) {
+    const offset = element.offsetTop;
+    const duration = 0.8; // Adjust the duration as needed
+    const startPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    animate(startPosition, offset, {
+      duration: duration,
+      onUpdate: (value) => {
+        window.scrollTo(0, value);
+      },
+    });
+  }
+};
+
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className="bg-transparent z-10">
       {({ open }) => (
         <>
           <div className=" pt-6 px-4 sm:px-6 lg:px-8">
@@ -32,17 +50,19 @@ export default function Header() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item) => (
-                    <a
+                    <Disclosure.Button
                       key={item.name}
-                      href={item.href}
+                      as="a"
+                      onClick={() => smoothScroll(item.href)}
                       className={classNames(
-                        item.current ? 'text-[#505D65]' : 'text-[#505D65]  hover:text-[#505D65]',
-                        'rounded-md px-3 py-2 text-sm font-medium'
+                        item.current ? 'text-[#69EAFF]' : 'text-[#505D65] hover:text-[#69EAFF]',
+                        'flex items-center gap-5 px-3 py-4 text-base font-medium cursor-pointer'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
                       {item.name}
-                    </a>
+                    </Disclosure.Button>
+
                   ))}
 
                 </div>
@@ -53,7 +73,7 @@ export default function Header() {
                   {navigation.map((item) => (
                     <a
                       key={item.name}
-                      href={item.href}
+                      onClick={() => smoothScroll(item.href)} 
                       className={classNames(
                         item.current ? 'text-white' : 'text-gray-300  hover:text-white',
                         'rounded-md px-3 py-2 text-sm font-medium'
@@ -129,7 +149,7 @@ export default function Header() {
                   <Disclosure.Button
                     key={item.name}
                     as="a"
-                    href={item.href}
+                    onClick={() => smoothScroll(item.href)}
                     className={classNames(
                       item.current ? 'text-[#69EAFF]' : 'text-[#505D65] hover:text-[#69EAFF]',
                       'flex items-center gap-5 px-3 py-4 text-base font-medium'

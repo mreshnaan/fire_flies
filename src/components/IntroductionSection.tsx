@@ -3,7 +3,7 @@ import { CustomCarousel } from './Slider'
 
 function IntroductionSection() {
     return (
-        <div className='w-full flex flex-col items-center gap-[50px] xl:gap-0 pb-[50px] xl:pb-[100px]'>
+        <div id='fweb3' className='w-full flex flex-col items-center gap-[50px] xl:gap-0 pb-[50px] xl:pb-[100px]'>
             <div className={`xl:hidden flex items-center justify-center gap-10`}>
                 <div className={"border-b-2 w-[190px] h-[1px] border-[#505D65]"}></div>
                 <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[140px] w-fit"}>introducing Firelies web3</p>
@@ -35,7 +35,7 @@ function IntroductionSection() {
                         <div className='bg-[url("/assets/mb-shape1.png")] bg-no-repeat bg-contain w-[330px] h-[181px] flex items-center justify-center '>
                             <div className='text-center flex flex-col gap-3 w-[230px]'>
                                 <p className='text-[#FFF] text-[24px] leading-[36px] font-bold '>Launch of $FFT Token</p>
-                                <p className='text-[#FFF] text-[12px] leading-[18px] '>Our bespoke utility token designed to unlock exclusive travel benefits and offers</p>
+                                <p className='text-[#FFF] text-[12px] leading-[18px] '>Our bespoke utility token designed to unlock exclusive travel benefits and offers...</p>
                             </div>
                         </div>,
                         <div className='bg-[url("/assets/mb-shape1.png")] bg-no-repeat bg-contain w-[330px] h-[181px] flex items-center justify-center '>
@@ -58,7 +58,7 @@ function IntroductionSection() {
                         <div className='bg-[url("/assets/shape1.png")] bg-no-repeat bg-contain w-[426px] h-[358px] flex items-center justify-center '>
                             <div className='text-center flex flex-col gap-5  w-[330px]'>
                                 <p className='text-[#FFF] text-[32px] leading-[48px] font-bold '>Launch of $FFT Token</p>
-                                <p className='text-[#FFF] text-[20px] leading-[28px] '>Our bespoke utility token designed to unlock exclusive travel benefits and offers</p>
+                                <p className='text-[#FFF] text-[20px] leading-[28px] '>Our bespoke utility token designed to unlock exclusive travel benefits and offers...</p>
                             </div>
                         </div>
                         <div className='bg-[url("/assets/shape1.png")] bg-no-repeat bg-contain w-[426px] h-[358px] flex items-center justify-center '>

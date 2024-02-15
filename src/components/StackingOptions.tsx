@@ -2,7 +2,7 @@ import HorizontalTitle from './HorizontalTitle'
 
 function StackingOptions() {
     return (
-        <div className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px]'>
+        <div id='tokenomics' className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px]'>
             <div className="flex flex-col w-[330px] xl:w-[1280px]  2xl:w-[1538px] gap-[50px] xl:gap-[140px] xl:px-6  ">
                 <div className={`xl:hidden flex items-center justify-center gap-10`}>
                     <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>

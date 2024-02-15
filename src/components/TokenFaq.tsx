@@ -3,7 +3,7 @@ import { CustomCarousel } from './Slider'
 
 function TokenFaq() {
     return (
-        <div className='flex items-center w-full flex-col xl:pt-[150px] xl:pb-[100px]'>
+        <div id='roadmap' className='flex items-center w-full flex-col xl:pt-[150px] xl:pb-[100px]'>
             <div className="flex flex-col w-[330px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
                 <div className='flex items-start gap-[60px] '>
                     <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px] hidden xl:flex' titleClassName='w-[100px]' />

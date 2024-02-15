@@ -3,7 +3,7 @@ import HorizontalTitle from "./HorizontalTitle"
 
 function TokenBenefits() {
     return (
-        <div className='flex flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:gap-[30px] w-[330px] xl:w-[1250px] 2xl:w-[1538px] xl:px-4'>
+        <div id="fft-tb" className='flex flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:gap-[30px] w-[330px] xl:w-[1250px] 2xl:w-[1538px] xl:px-4'>
             <div className='flex flex-col items-center justify-center gap-10 xl:justify-between xl:flex-row xl:gap-[80px] 2xl:gap-[105px]'>
                 <div className={`xl:hidden flex items-center justify-center gap-10`}>
                 <div className={"border-b-2 w-[228px] h-[1px] border-[#505D65]"}></div>
