@@ -21,7 +21,7 @@ function WinYourDream() {
                                 <p className='text-[12px] leading-[18px] text-center xl:text-[20px] xl:w-[671px] text-[#505D65] xl:leading-[30px] xl:text-justify mt-[16px] xl:mt-[41px]'>Step into a world of thrilling opportunities with Fireflies Raffles, where each ticket holds the potential for life-changing experiences. Unleash the excitement of possibility as you participate in our exclusive raffles, each designed to turn ordinary moments into extraordinary memories.</p>
                             </div>
                         </div>
-                        <img src="/assets/win-your-dream3.png" alt="" srcSet="" className='xl:w-[485px] xl:h-[790px] 2xl:w-[685px] 2xl:h-[990px] xl:absolute right-0' />
+                        <img src="/assets/win-your-dream3.png" alt="" srcSet="" className='xl:w-[555px] xl:h-[790px] 2xl:w-[685px] 2xl:h-[990px] xl:absolute right-0' />
                         <div className='w-[325px] h-[109px] xl:w-[426px] xl:h-[208px] absolute top-[790px] left-[40px] xl:left-0 xl:top-[690px] xl:bottom-0 bg-[url("/assets/shape9.png")] bg-no-repeat bg-contain' >
                             <p className='text-[#FFF] text-[24px] leading-[36px ] text-left xl:text-center  xl:text-[32px] xl:leading-[48px] font-bold px-[50px] py-[28px] xl:pt-[50px]'>How it works?</p>
                         </div>
