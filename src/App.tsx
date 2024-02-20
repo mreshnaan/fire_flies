@@ -66,12 +66,12 @@ function App() {
       <MainBanner />
       <div className="flex flex-col items-center w-full">
         <WhoWeAre />
-        <VideoSection mainContainerClassName="video-bg1" videoUrl="https://res.cloudinary.com/dtrnrn7am/video/upload/v1707620103/y2mate.is_-_Firefiles_image_video-er_qG7lcM4g-1080pp-1707619695_hczx1p.mp4"/>
+        <VideoSection  mainContainerClassName="video-bg1" videoUrl="https://res.cloudinary.com/dtrnrn7am/video/upload/v1707620103/y2mate.is_-_Firefiles_image_video-er_qG7lcM4g-1080pp-1707619695_hczx1p.mp4" coverImageUrl="/assets/video1.jpg"/>
         <TeamSection />
         <HowItWorksSection />
         <Partners />
         <IntroductionSection />
-        <VideoSection mainContainerClassName='video-bg2' videoUrl="https://res.cloudinary.com/dtrnrn7am/video/upload/v1707620069/y2mate.is_-_Fireflies_Web3_video-3Dq7s2j0Sek-1080pp-1707619737_gt5srr.mp4"/>
+        <VideoSection  mainContainerClassName='video-bg2' videoUrl="https://res.cloudinary.com/dtrnrn7am/video/upload/v1707620069/y2mate.is_-_Fireflies_Web3_video-3Dq7s2j0Sek-1080pp-1707619737_gt5srr.mp4" coverImageUrl="/assets/video2.jpg"/>
         <TokenBenefits />
          <TravelerReward />
         <StackingOptions />

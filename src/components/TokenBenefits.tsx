@@ -33,7 +33,7 @@ function TokenBenefits() {
                     </div>
                     <div className="flex flex-col gap-[40px]">
                         <div className="flex flex-col gap-[20px]">
-                            <h1 className="text-[#505D65] text-[24px] leading-[31.2px] font-semibold xl:text-[24px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Enhanced Savings with Discount Schemes</h1>
+                            <h1 className="text-[#505D65] text-[24px] text-center xl:text-left leading-[31.2px] font-semibold xl:text-[24px] xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Enhanced Savings with Discount Schemes</h1>
                             <p className="text-[#505D65] text-[12px] leading-[18px] xl:text-[18px] xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">Maximize your travel benefits with Fireflies' exclusive discount schemes, available only when you use $FFT Tokens. Enjoy a uniform 20% discount across various travel services, elevating your journey to new levels of affordability and pleasure. Whether it's securing the Best Price Option (BPO) for unmatched deals, savoring unique dining experiences with Eat for Stay, unlocking value in Distributorship, indulging in VIP luxuries with the VIP Discount Pass, or accessing coveted event tickets, your $FFT Tokens are the key to unlocking these irresistible savings. Embrace the joy of travel with cost-efficiency and exclusive perks, making each trip with Fireflies not just memorable, but also more rewarding.</p>
                         </div>
                         <Divider className='bg-[#505D65] opacity-30' />

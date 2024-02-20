@@ -258,7 +258,7 @@ function TravelerReward() {
                     </div>
                 </div>
 
-                <div className='flex items-start gap-[60px] xl:mt-0 mt-[200px]'>
+                <div className='flex items-start justify-center xl:justify-normal gap-[60px] xl:mt-0 mt-[200px]'>
                     <div className="xl:block hidden">
                         <HorizontalTitle title='PROGRESS' mainContainerClassName={"gap-20"} titleClassName='w-[120px] text-[#FFF]' strokeClassName="border-[#FFF]" />
                     </div>

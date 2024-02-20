@@ -25,7 +25,7 @@ function TheWorldIsYours() {
                     </div>
                 </div>
             </div>
-            <div className="w-[330px] xl:w-[1280px] 2xl:w-[1538px] gap-[40px] pt-[50px] xl:pt-[100px] flex flex-col xl:flex-row xl:gap-[100px] 2xl:gap-[140px]">
+            <div className="w-[330px] xl:w-[1280px] 2xl:w-[1538px] justify-center gap-[40px] pt-[50px] xl:pt-[100px] flex flex-col xl:flex-row xl:gap-[100px] 2xl:gap-[140px]">
                 <p className=" xl:hidden text-[#505D65] xl:text-[20px] text-justify xl:leading-[30px] xl:mt-[75px] xl:w-[571px] 2xl:w-[650px]">Become a storyteller of your travels with Fireflies' User-Generated Content Rewards Program. Share your captivating videos and photos, showcasing your unique experiences with accommodations, destinations, and activities booked through Fireflies, and get featured across our platforms. In return, your creativity and insights are rewarded with exclusive digital collectibles, enriching your future travel adventures.</p>
                 <CustomCarousel sliders={[
                     <div className="w-[330px] flex flex-col items-center justify-center">
