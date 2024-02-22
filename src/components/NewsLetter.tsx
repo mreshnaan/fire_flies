@@ -43,14 +43,14 @@ function NewsLetter() {
             mainContainerClassName="gap-[60px] hidden xl:flex"
           />
           <div
-            className={`xl:hidden flex items-center justify-center gap-[20px]`}
+            className={`xl:hidden flex flex-row items-center justify-start gap-[20px]`}
           >
             <div
-              className={"border-b-2 w-[319px] h-[1px] border-[#505D65]"}
+              className={"border-b-2 w-[290px] h-[1px] border-[#505D65]"}
             ></div>
             <p
               className={
-                "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"
+                "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
               }
             >
               newsletter

@@ -39,7 +39,7 @@ function Footer() {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[20px]">
                     <img className="w-[53.996px] h-[53.996px] xl:w-[158px] xl:h-[158px] rounded-full" src="/assets/logo1.svg" alt="" srcSet="" />
-                    <p className="text-[10px] leading-[13px] xl:text-[20px] xl:leading-[26px] font-bold text-center">Hotline <br></br>24/7</p>
+                    <p className="text-[10px] leading-[13px] xl:text-[20px] xl:leading-[26px] font-bold text-center">Hotline <br></br>9am/9pm</p>
                 </div>
             </div>
 

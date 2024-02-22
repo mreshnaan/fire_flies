@@ -28,7 +28,7 @@ function TokenBenefits() {
                         <div className="flex flex-col gap-[20px]">
                             <h1 className="text-[#505D65] text-[24px] text-center leading-[31.2px] xl:text-left xl:text-[24px] font-semibold xl:leading-[32px] 2xl:text-[32px] 2xl:leading-[41px]">Buy and Burn Mechanism</h1>
                             <p className="text-[#505D65] text-[12px] leading-[18px] text-justify xl:text-[18px] xl:leading-[28px] 2xl:text-[20px] 2xl:leading-[30px]">To enhance the value of $FFT Tokens, we implement a strategic Buy and Burn mechanism. A portion of the token fees collected from transactions is used to purchase $FFT Tokens from the market and burn them. This process reduces the overall token supply, creating deflationary pressure which can potentially increase the token's value over time. As a token holder, this mechanism not only offers you immediate benefits on travel bookings but also holds the promise of growing value, making your investment in $FFT Tokens a smarter choice for both travel and financial returns.</p>
-                            <img src="/assets/tokenGraph.png" alt="" srcSet="" className="w-[330px] h-[285px] xl:w-[544.149px] xl:h-[476px]" />
+                            <img src="/assets/buyAndBurn.svg" alt="" srcSet="" className="w-[330px] h-[285px] xl:w-[544.149px] xl:h-[476px]" />
                         </div>
                     </div>
                     <div className="flex flex-col gap-[40px]">

@@ -5,7 +5,7 @@ function WhoWeAre() {
   return (
     <div id="about" className=" grid grid-cols-1 gap-[40px] pb-[50px] xl:grid-cols-2 xl:p-[80px] xl:gap-20 2x:pl-[140px] 2xl:pr-[240px] 2xl:pt-[100px] 2xl:pb-[150px] 2xl:gap-36">
       <div className="flex flex-col items-center xl:flex-row xl:items-start gap-[40px] xl:gap-[50px] 2xl:gap-[60px]">
-        <HorizontalTitle title={"2011 to 2010"} mainContainerClassName="hidden xl:flex" />
+        <HorizontalTitle title={"WHO WE ARE"} mainContainerClassName="hidden xl:flex" />
         <div className={`xl:hidden flex items-center justify-center gap-10`}>
           <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
           <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[79px] w-fit"}>PRESIDENT CEO</p>

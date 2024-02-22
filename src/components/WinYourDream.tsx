@@ -12,7 +12,7 @@ function WinYourDream() {
                 <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[140px] w-fit"}>WIN YOUR DREAM JOURNeY</p>
             </div>
             <div className='flex items-center video-bg2 w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px] relative '>
-                <div className="relative flex flex-col w-[330px] xl:w-[1280px] 2xl:w-[1538px] gap-[140px] px-6 ">
+                <div className="relative flex flex-col sm:w-[330px] xl:w-[1280px] 2xl:w-[1538px] gap-[140px] px-6 ">
                     <div className='flex flex-col xl:flex-row gap-8 xl:gap-0 justify-between '>
                         <div className='flex items-start gap-[60px] '>
                             <HorizontalTitle title='WIN YOUR DREAM JOURNeY' mainContainerClassName='gap-[100px] hidden xl:flex' titleClassName='w-[200px] text-[#505D65]' strokeClassName='border-[#505D65]' />

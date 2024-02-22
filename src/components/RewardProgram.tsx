@@ -75,7 +75,7 @@ function RewardProgram() {
                             <p className='w-[318px] text-[#FFF] text-center text-[20px] leading-[30px]'><span className='font-bold uppercase'>Criteria:</span> Book a trip every month for 12 months.</p>
                         </div>
                         <div className='bg-[url("/assets/shape8.png")] w-[426px] h-[385px] bg-no-repeat bg-contain flex items-center justify-center'>
-                            <div className="flex flex-col gap-4 justify-center items-cente w-[318px] text-center">
+                            <div className="flex flex-col gap-4 justify-center items-center w-[318px] text-center">
                                 <h1 className="text-[20px] text-[#FFF] leading-[30px]">Reward:</h1>
                                 <p className="  text-center text-[#FFF] text-[20px] leading-[30px]">1 Eat for Stay Voucher (without obligation per nights)</p>
                                 <Divider className="w-[200px] bg-[#FFF] opacity-50" />

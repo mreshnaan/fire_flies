@@ -8,7 +8,7 @@ function MakingDifferenceSection() {
                 <div className="relative flex flex-col w-[300px] gap-[70px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] ">
                     <div className='flex flex-col xl:flex-row gap-[30px] xl:gap-0 justify-between px-6'>
                         <div className='flex items-start gap-[60px] '>
-                            <HorizontalTitle title='Introducing Fireflies WEB3' mainContainerClassName='gap-[100px] hidden xl:flex' titleClassName='w-[200px] text-[#FFF]' strokeClassName='border-[#FFF]' />
+                            <HorizontalTitle title='making a differEnce' mainContainerClassName='gap-[100px] hidden xl:flex' titleClassName='w-[200px] text-[#FFF]' strokeClassName='border-[#FFF]' />
                             <div className="flex flex-col gap-[30px]">
                                 <h1 className='text-[24px] leading-[31.2px] text-center xl:w-[571px] xl:leading-[40px] 2xl:w-[671px] xl:text-left text-[#FFF] xl:text-[48px] font-bold 2xl:leading-[62.4px] uppercase'>Environmental and Social Responsibility NFT:
                                     Making a Difference</h1>

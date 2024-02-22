@@ -16,7 +16,7 @@ export function DynamicAccordion({ items, titleClassName, iconClassName, content
   return (
     <Accordion type="single" collapsible className="w-full text-[#505D65]">
       {items?.map((item, index) => (
-        <AccordionItem key={index} value={`item-${index}`} className="border-[#505D65] border-b border-opacity-20 py-4">
+        <AccordionItem key={index} value={`item-${index}`} className="border-[#505D65] data-[state=open]:border-transparent border-b border-opacity-20 py-4">
           <AccordionTrigger>
             <div className="flex gap-3 items-center">
               {item.icon && (<>
@@ -29,7 +29,7 @@ export function DynamicAccordion({ items, titleClassName, iconClassName, content
               </span>
             </div>
           </AccordionTrigger>
-          <AccordionContent className={cn("", contentClassName)}>
+          <AccordionContent className={cn("xl:pl-20", contentClassName)}>
             {item.content}
           </AccordionContent>
         </AccordionItem>
