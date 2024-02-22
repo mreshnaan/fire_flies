@@ -52,7 +52,7 @@ function WhatWeDo() {
             classNames=""
             sliders={[
               <div className="flex xl:flex-row flex-col justify-center items-center mx-10">
-                <img src="/assets/WhatWeDoSlider/image-1-1.png" />
+                <img src="/assets/WhatWeDoSlider/image-1-1.png" className="xl:h-[450px] xl:w-[710px]" />
                 <img
                   src="/assets/WhatWeDoSlider/image-1-2.svg"
                   alt=""
@@ -67,7 +67,7 @@ function WhatWeDo() {
                 />
               </div>,
               <div className="flex xl:flex-row flex-col justify-center items-center mx-10">
-                <img src="/assets/WhatWeDoSlider/image-2-1.png" />
+                <img src="/assets/WhatWeDoSlider/image-2-1.png" className="xl:h-[450px] xl:w-[710px]"/>
                 <img
                   src="/assets/WhatWeDoSlider/image-2-2.svg"
                   alt=""
@@ -82,7 +82,7 @@ function WhatWeDo() {
                 />
               </div>,
               <div className="flex xl:flex-row flex-col justify-center items-center mx-10">
-                <img src="/assets/WhatWeDoSlider/image-3-1.png" />
+                <img src="/assets/WhatWeDoSlider/image-3-1.png" className="xl:h-[450px] xl:w-[710px]"/>
                 <img
                   src="/assets/WhatWeDoSlider/image-3-2.svg"
                   alt=""
@@ -97,7 +97,7 @@ function WhatWeDo() {
                 />
               </div>,
               <div className="flex xl:flex-row flex-col justify-center items-center mx-10">
-                <img src="/assets/WhatWeDoSlider/image-4-1.png" />
+                <img src="/assets/WhatWeDoSlider/image-4-1.png" className="xl:h-[450px] xl:w-[710px]"/>
                 <img
                   src="/assets/WhatWeDoSlider/image-4-2.svg"
                   alt=""
