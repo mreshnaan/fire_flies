@@ -19,6 +19,7 @@ import WinYourDream from "./components/WinYourDream"
 import TokenFaq from "./components/TokenFaq"
 import { useEffect } from "react"
 import { Toaster } from "@/components/ui/toaster"
+import Glossary from "./components/Glossary"
 
 
 function App() {
@@ -82,6 +83,7 @@ function App() {
         <TokenFaq />
         <NewsLetter />
         <Faq />
+        <Glossary/>
       </div>
       <Footer />
       <Toaster />
