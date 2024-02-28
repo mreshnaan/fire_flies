@@ -14,7 +14,7 @@ import { PrivacyPolicy } from "./lib/PrivacyPolicy.tsx";
             errorElement: <ErrorPage/>
         },
         {
-          path:'/privacy-policy',
+          path:'/glossary',
           element: <PrivacyPolicy/>,
           errorElement: <ErrorPage/>
       }

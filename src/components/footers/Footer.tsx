@@ -45,8 +45,12 @@ function Footer() {
                 </div>
             </div>
 
+<div className="flex flex-row gap-10">
 
-            <div onClick={() => navigate("/privacy-policy")} className="mt-12 text-white no-underline text-sm md:text-xl cursor-pointer"> Privacy Policy</div>
+
+            <a href="https://cmmnwxfnonpnqpsrhicb.supabase.co/storage/v1/object/public/fireflies/Privacy%20Policy.pdf?t=2024-02-10T09%3A53%3A25.539Z" target="_blank" className="mt-12 text-white no-underline text-sm md:text-xl"> Privacy Policy</a>
+            <div onClick={() => navigate("/glossary")} className="mt-12 text-white no-underline text-sm md:text-xl cursor-pointer">Glossary</div>
+</div>
         </div>
     )
 }
