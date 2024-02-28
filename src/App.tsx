@@ -19,7 +19,7 @@ import WinYourDream from "./components/WinYourDream"
 import TokenFaq from "./components/TokenFaq"
 import { useEffect } from "react"
 import { Toaster } from "@/components/ui/toaster"
-import Glossary from "./components/Glossary"
+import ScrollToTop from "./components/scrollToTop"
 
 
 function App() {
@@ -63,6 +63,7 @@ function App() {
 
   return (
     <div className='w-full min-h-screen'>
+      <ScrollToTop/>
       <Header />
       <MainBanner />
       <div className="flex flex-col items-center w-full">
@@ -83,7 +84,6 @@ function App() {
         <TokenFaq />
         <NewsLetter />
         <Faq />
-        <Glossary/>
       </div>
       <Footer />
       <Toaster />

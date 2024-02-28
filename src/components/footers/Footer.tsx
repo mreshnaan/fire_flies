@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+    const navigate = useNavigate();
     return (
         <div className="flex flex-col items-center justify-center video-bg1 pb-[75px] pt-[50px] xl:pb-[150px] xl:pt-[100px] ">
             <span>
@@ -44,7 +46,7 @@ function Footer() {
             </div>
 
 
-            <a href="https://cmmnwxfnonpnqpsrhicb.supabase.co/storage/v1/object/public/fireflies/Privacy%20Policy.pdf?t=2024-02-10T09%3A53%3A25.539Z" target="_blank" className="mt-12 text-white no-underline text-sm md:text-xl"> Privacy Policy</a>
+            <div onClick={() => navigate("/privacy-policy")} className="mt-12 text-white no-underline text-sm md:text-xl cursor-pointer"> Privacy Policy</div>
         </div>
     )
 }
