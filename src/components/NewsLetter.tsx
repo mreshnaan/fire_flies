@@ -18,23 +18,25 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        const url = `https://app.sendx.io/api/v1/contact/identify?team_id=${import.meta.env.VITE_SENDX_TEAM_ID}`
-        const payload = {
-          "email": email,
-        }
-        const headers = {
-          'Content-Type': 'application/json',
-          api_key: import.meta.env.VITE_SENDX_API_KEY
-        }
-        const response = await axios.post(url, payload, { headers })
-
-        console.log(response)
-        if (response.status !== 200) {
+        const BASEURL = `https://app.sendx.io/api/v1/contact/identify?team_id=${import.meta.env.VITE_SENDX_TEAM_ID}`
+        const response = await fetch(`${BASEURL}/`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            api_key: `${import.meta.env.VITE_SENDX_API_KEY}`,
+          },
+          body: JSON.stringify({
+            email: email!
+          }),
+        });
+        if (!response.ok) {
           toast({
             title: "Something went wrong",
             variant: "destructive",
           });
         }
+
+        console.log(response)
         await supabase.from("fireflies").upsert({
           email,
         });
