@@ -1,8 +1,8 @@
 import HorizontalTitle from "./HorizontalTitle";
 import { useState } from "react";
 
+
 import { LoadingSpinner } from "./ui/spinner";
-import { supabase } from "@/lib/supabase";
 import { useToast } from "./ui/use-toast";
 
 
@@ -11,17 +11,34 @@ function NewsLetter() {
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState("");
 
-  const handleSubmit = async (e :any) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     if (email) {
       try {
         setLoading(true);
-        await supabase.from("fireflies").upsert({
-          email,
+        const url = `https://app.sendx.io/api/v1/contact/identify?team_id=hm7iCLmRlrcA1pNIZyC1Xa`;
+
+        const response = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            api_key: "QpZd167HZtakAQMyASYt",
+          },
+          body: JSON.stringify({
+            email: "test123@gmail.com",
+          }),
         });
+        if (response.ok) {
+          const data = await response.json();
+          console.log("res -->", data);
+        }
+        // await supabase.from("fireflies").upsert({
+        //   email,
+        // });
         toast({
           title: "Success",
         });
+
         setEmail("");
         setLoading(false);
       } catch (error) {
@@ -77,7 +94,7 @@ function NewsLetter() {
             you informed and ahead of the curve.
           </p>
           <div>
-          <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
               <div className="flex items-center relative bg-[#F1F1F2] w-[330px] h-[50px]  pl-[24px]  xl:pl-[28px] xl:w-[510px] 2xl:w-[610px] xl:h-[70px] rounded-[50px] overflow-hidden">
                 <input
                   value={email}
@@ -89,7 +106,7 @@ function NewsLetter() {
                 />
                 <button
                   type="submit"
-        
+
                   className="absolute w-[135px] h-[50px] text-[12px] left-[200px] leading-[15.6px] xl:left-[307px] 2xl:left-[407px] xl:text-[18px] xl:leading-[23px] font-bold uppercase subscription-btn-bg xl:w-[207px] xl:h-[70px] xl:gap-[12px] rounded-[50px] text-[#FFF] flex items-center justify-center"
                 >
                   {!loading && (
