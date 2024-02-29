@@ -7,10 +7,20 @@ function Faq() {
             <div className="flex flex-col w-[300px] xl:w-[1280px] 2xl:w-[1538px] gap-[70px] xl:gap-[140px] px-6 ">
                 <div className='flex flex-col items-center xl:flex-row xL:items-start gap-[60px] '>
                     <HorizontalTitle title='FAQ' mainContainerClassName='gap-[10px] hidden xl:flex' />
-                    <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                        <div className={"border-b-2 h-[1px] border-[#505D65]"}></div>
-                        <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>FAQ</p>
-                    </div>
+                    <div
+            className={`xl:hidden flex flex-row items-center justify-start gap-[20px]`}
+          >
+            <div
+              className={"border-b-2 w-[290px] h-[1px] border-[#505D65]"}
+            ></div>
+            <p
+              className={
+                "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
+              }
+            >
+              FAQ
+            </p>
+          </div>
                     <div className="flex flex-col gap-[30px]">
                         <h1 className='text-[40px] leading-[44px] text-center xl:w-[799.416px] xl:text-left text-[#13AFB6] xl:text-[80px] font-bold xl:leading-[88px] uppercase'>frequently asked questions</h1>
                     </div>

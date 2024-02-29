@@ -1,9 +1,10 @@
+import Divider from './Divider'
 import HorizontalTitle from './HorizontalTitle'
 import { CustomCarousel } from './Slider'
 
 function TokenFaq() {
     return (
-        <div id='roadmap' className='flex items-center w-full flex-col xl:pt-[150px] xl:pb-[100px]'>
+        <div id='roadmap' className='flex items-center w-full flex-col xl:pt-[150px]'>
             <div className="flex flex-col w-[330px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
                 <div className='flex items-start gap-[60px] '>
                     <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px] hidden xl:flex' titleClassName='w-[100px]' />
@@ -397,11 +398,11 @@ function TokenFaq() {
                             alt=""
                             src="assets/token-faq-shape3.png"
                         />
-                        <div className="text-[#FFF] absolute xl:left-[270px] xl:top-[50px] 2xl:left-[370px] 2xl:top-[56px] z-[2]">
-                            <p className="text-[#13AFB6] text-[80px] uppercase font-bold leading-[88px]">2025 Coming soon</p>
+                        <div className="text-[#FFF] absolute xl:left-[270px] xl:top-[70px] 2xl:left-[370px] 2xl:top-[70px] z-[2]">
+                            <p className="text-[#13AFB6] text-[80px] uppercase font-bold leading-[88px]" >2025 Coming soon</p>
                         </div>
                     </div>
-
+                    <Divider className='bg-[#505D65] opacity-30 xl:mt-[100px] hidden xl:block' />
                 </div>
             </div>
         </div>
