@@ -18,28 +18,25 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        const BASEURL = `https://app.sendx.io/api/v1/contact/identify?team_id=${import.meta.env.VITE_SENDX_TEAM_ID}`
-        const response = await fetch(`${BASEURL}/`, {
+        const url = `https://app.sendx.io/api/v1/contact/identify?team_id=hm7iCLmRlrcA1pNIZyC1Xa`;
+
+        const response = await fetch(url, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            api_key: `${import.meta.env.VITE_SENDX_API_KEY}`,
+            api_key: "QpZd167HZtakAQMyASYt",
           },
           body: JSON.stringify({
-            email: email!
+            email: "test123@gmail.com",
           }),
         });
-        if (!response.ok) {
-          toast({
-            title: "Something went wrong",
-            variant: "destructive",
-          });
+        if (response.ok) {
+          const data = await response.json();
+          console.log("res -->", data);
         }
-
-        console.log(response)
-        await supabase.from("fireflies").upsert({
-          email,
-        });
+        // await supabase.from("fireflies").upsert({
+        //   email,
+        // });
         toast({
           title: "Success",
         });
