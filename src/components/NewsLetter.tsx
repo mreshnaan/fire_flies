@@ -1,10 +1,8 @@
 import HorizontalTitle from "./HorizontalTitle";
 import { useState } from "react";
-import axios from "axios";
 
 
 import { LoadingSpinner } from "./ui/spinner";
-import { supabase } from "@/lib/supabase";
 import { useToast } from "./ui/use-toast";
 
 
