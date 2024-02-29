@@ -249,7 +249,7 @@ function TravelerReward() {
                                         />
                                     </div>
 
-                                    <div className="text-[#FFF] absolute left-[270px] top-[74px] z-[10]">
+                                    <div className="text-[#FFF] absolute left-[270px] 2xl:left-[390px] top-[85px] z-[10]">
                                         <p className="text-[#13AFB6] text-[32px] uppercase font-bold leading-[35.2px]]">$50,000 Token Spent - COMING SOON</p>
                                     </div>
                                 </div>
