@@ -143,7 +143,7 @@ export default function Header() {
           </div>
 
           <Disclosure.Panel className="lg:hidden h-screen w-screen relative flex flex-col gap-[40px]">
-            <div className="space-y-1 px-2 pb-3 pt-12 items-start bg-[white]  ">
+            <div className="flex flex-col space-y-1 px-2 pb-3 pt-12 items-end justify-end bg-[white]  ">
               {navigation.map((item) => (
                 <>
                   <Disclosure.Button
