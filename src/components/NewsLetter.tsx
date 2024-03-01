@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import { LoadingSpinner } from "./ui/spinner";
 import { useToast } from "./ui/use-toast";
-import { identifyContact } from "@/lib/sendX";
+// import { identifyContact } from "@/lib/sendX";
 
 
 function NewsLetter() {
@@ -18,10 +18,10 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        const apiKey = "QpZd167HZtakAQMyASYt";
-        const teamId = "hm7iCLmRlrcA1pNIZyC1Xa";
-        const { data } = await identifyContact(email, apiKey, teamId)
-        console.log(data)
+        // const apiKey = "QpZd167HZtakAQMyASYt";
+        // const teamId = "hm7iCLmRlrcA1pNIZyC1Xa";
+        // const { data } = await identifyContact(email, apiKey, teamId)
+        // console.log(data)
         // await supabase.from("fireflies").upsert({
         //   email,
         // });
