@@ -20,6 +20,8 @@ import TokenFaq from "./components/TokenFaq"
 import { useEffect } from "react"
 import { Toaster } from "@/components/ui/toaster"
 import ScrollToTop from "./components/scrollToTop"
+import Tokenomics from "@/components/Tokenomics.tsx";
+import UnlockRewards from "@/components/UnlockRewards.tsx";
 
 
 function App() {
@@ -81,6 +83,8 @@ function App() {
         <RewardProgram />
         <MakingDifferenceSection />
         <TheWorldIsYours />
+        <Tokenomics/>
+        <UnlockRewards/>
         <TokenFaq />
         <NewsLetter />
         <Faq />

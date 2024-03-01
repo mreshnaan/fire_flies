@@ -1,28 +1,41 @@
-import SendXRestApi from 'send_x_rest_api'
-
-
-
-export async function identifyContact(email:string, apiKey:string, teamId:string):Promise<{response:any;data:any}>{
-
-  return new Promise((res,rej) => {
-    const api = new SendXRestApi.ContactApi()
-  
-  const contactDetails = new SendXRestApi.ContactRequest(); // {ContactRequest} Contact details
-  
-   contactDetails.email = email;
-  //  contactDetails.firstName = "John";
-  //  contactDetails.lastName = "Doe";
-  //  contactDetails.birthday = "1989-03-03";
-  //  contactDetails.customFields = {"Designation": "Software Engineer"};
-  //  contactDetails.tags = ["Developer"];
-  
-   const callback = function(error:any, data:any, response:any) {
-    if (error) {
-      rej(error)
-    } else {
-      res({data,response});
-    }
-  };
-  api.contactIdentifyPost(apiKey, teamId, contactDetails, callback);
-  })
-}
+// import SendXRestApi from "send_x_rest_api";
+//
+// export function identifyContact(email: string, apiKey: string, teamId: string): Promise<{ data: any, response: any }> {
+//   return new Promise((resolve, reject) => {
+//     const api = new SendXRestApi.ContactApi();
+//
+//     // Construct the contact details object
+//     const contactDetails = new SendXRestApi.ContactRequest();
+//     contactDetails.email = email;
+//     contactDetails.firstName = "";
+//     contactDetails.lastName = "";
+//     contactDetails.customFields = { Designation: "Newsletter" };
+//     contactDetails.tags = ["Newsletter"];
+//
+//     // Pass the contactDetails object directly to the API call
+//     api.contactIdentifyPost(
+//       apiKey,
+//       teamId,
+//       contactDetails,
+//       (error: any, data: any, response: any) => {
+//         if (error) {
+//           reject(error);
+//         } else {
+//           resolve({ data: data, response: response });
+//         }
+//       }
+//     );
+//   });
+// }
+//
+// // Example usage:
+//
+//
+// // identifyContact("john.doe@gmail.com", apiKey, teamId)
+// //   .then(({ data , response }) => {
+// //     console.log("API called successfully. Returned data: " + data);
+// //     console.log("Response: ", response);
+// //   })
+// //   .catch((error) => {
+// //     console.error(error);
+// //   });

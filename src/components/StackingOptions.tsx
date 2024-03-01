@@ -3,11 +3,20 @@ import HorizontalTitle from './HorizontalTitle'
 function StackingOptions() {
     return (
         <div id='tokenomics' className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px]'>
+            <div
+                className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] pb-[50px]`}
+            >
+                <div className="w-[267px] h-[0px] opacity-30 border border-zinc-500"></div>
+                <p
+                    className={
+                        "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
+                    }
+                >
+                    STAKING OPTIONS
+                </p>
+            </div>
             <div className="flex flex-col w-[330px] xl:w-[1280px]  2xl:w-[1538px] gap-[50px] xl:gap-[140px] xl:px-6  ">
-                <div className={`xl:hidden flex items-center justify-center gap-10`}>
-                    <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
-                    <p className={"font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[100px] w-fit"}>STAKING OPTIONS</p>
-                </div>
+
                 <div className='flex flex-col xl:flex-row gap-[30px] xl:gap-0 justify-between '>
                     <div className='flex items-start gap-[60px] '>
                         <HorizontalTitle title='STAKING OPTIONS' mainContainerClassName='gap-[20px] hidden xl:flex' titleClassName='w-[200px] text-[#505D65]' strokeClassName='border-[#505D65]' />

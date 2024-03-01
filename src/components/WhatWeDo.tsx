@@ -23,7 +23,7 @@ function WhatWeDo() {
         </span>
       </div>
       <div className={`xl:hidden flex items-center justify-center gap-10`}>
-        <div className={"border-b-2 w-[258px] h-[1px] border-[#505D65]"}></div>
+        <div className={"border-b-2 w-[258px] h-[1px] border-zinc-300"}></div>
         <p
           className={
             "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase min-w-[79px] w-fit"
