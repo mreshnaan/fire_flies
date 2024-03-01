@@ -2,8 +2,10 @@ import HorizontalTitle from "./HorizontalTitle";
 import { useState } from "react";
 
 
+
 import { LoadingSpinner } from "./ui/spinner";
 import { useToast } from "./ui/use-toast";
+import { identifyContact } from "@/lib/sendX";
 
 
 function NewsLetter() {
@@ -16,22 +18,10 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        const url = `https://app.sendx.io/api/v1/contact/identify?team_id=hm7iCLmRlrcA1pNIZyC1Xa`;
-
-        const response = await fetch(url, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            api_key: "QpZd167HZtakAQMyASYt",
-          },
-          body: JSON.stringify({
-            email: "test123@gmail.com",
-          }),
-        });
-        if (response.ok) {
-          const data = await response.json();
-          console.log("res -->", data);
-        }
+        const apiKey = "QpZd167HZtakAQMyASYt";
+        const teamId = "hm7iCLmRlrcA1pNIZyC1Xa";
+        const { data } = await identifyContact(email, apiKey, teamId)
+        console.log(data)
         // await supabase.from("fireflies").upsert({
         //   email,
         // });
@@ -41,7 +31,8 @@ function NewsLetter() {
 
         setEmail("");
         setLoading(false);
-      } catch (error) {
+      } catch (error: any) {
+        console.log("error -->", error.message)
         setLoading(false);
         toast({
           title: "Something went wrong",
