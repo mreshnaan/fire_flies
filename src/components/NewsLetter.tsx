@@ -21,6 +21,7 @@ function NewsLetter() {
         const apiKey = "QpZd167HZtakAQMyASYt";
         const teamId = "hm7iCLmRlrcA1pNIZyC1Xa";
         const { data } = await identifyContact(email, apiKey, teamId)
+        console.clear();
         console.log(data)
         // await supabase.from("fireflies").upsert({
         //   email,
