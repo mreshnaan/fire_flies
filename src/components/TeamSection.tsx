@@ -60,14 +60,14 @@ function TeamSection() {
                 </div>
                 <div className="hidden xl:grid grid-cols-1 self-center xl:grid-cols-3 2xl:grid-cols-5 gap-[80px]">
 
-                    <TeamPerson img="/assets/team1.png" name="Mr. Ulrich Märki" description="Chairman of the Board Swizerland" />
+                    <TeamPerson img="/assets/team1.png" name="Mr. Ulrich Märki" description="Chairman of the Board Switzerland " />
                     <TeamPerson img="/assets/team2.png" name="István Varga" description="Director of Business Development Hungary to Dubai" />
                     <TeamPerson img="/assets/team3.png" name="Zoltán Hidas" description="CFO USA" />
                     <TeamPerson img="/assets/team4.png" name="Anatol Pante" description="Chief Accountant Switzerland" />
                     <TeamPerson img="/assets/team5.png" name="Silver Borer" description="Data Protection Supervisor, Lawyer Switzerland" />
                 </div>
                 <CustomCarousel sliders={[
-                    <TeamPerson img="/assets/team1.png" name="Mr. Ulrich Märki" description="Chairman of the Board Swizerland" />,
+                    <TeamPerson img="/assets/team1.png" name="Mr. Ulrich Märki" description="Chairman of the Board Switzerland " />,
                     <TeamPerson img="/assets/team2.png" name="István Varga" description="Director of Business Development Hungary to Dubai" />,
                     <TeamPerson img="/assets/team3.png" name="Zoltán Hidas" description="CFO USA" />,
                     <TeamPerson img="/assets/team4.png" name="Anatol Pante" description="Chief Accountant Switzerland" />,

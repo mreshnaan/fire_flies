@@ -13,7 +13,7 @@ const Tokenomics = () => {
                     program
                 </div>
             </div>
-            <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] max-w-[100%] xl:gap-[140px] gap-10 xl:px-8 px-5">
+            <div className="flex flex-col xl:w-[1280px] 2xl:w-[1538px] max-w-[100%] xl:gap-[60px] gap-10 xl:px-8 px-5">
                 <div className='flex xl:flex-row flex-col items-start gap-[60px]'>
                     <div className="xl:block hidden">
                         <HorizontalTitle title='Tokenomics' mainContainerClassName={"gap-20"}
@@ -32,9 +32,9 @@ const Tokenomics = () => {
 
 
                 <div
-                    className='xl:flex items-center hidden justify-between xl:justify-normal gap-[60px] w-full  xl:mt-0 mt-[200px]'>
-                    <img src={"/assets/tokenomics.svg"} alt={"Tokenomics"} className={"flex w-1/2"}/>
-                    <img src={"/assets/tokenomicsList.svg"} alt={"Tokenomics List"} className={"flex w-1/2"}/>
+                    className='xl:flex items-center hidden justify-between xl:justify-normal gap-[60px] w-full  xl:mt-0 mt-[200px] pb-[150px]'>
+                    <img src={"/assets/tokenomics.svg"} alt={"Tokenomics"} className={"flex w-full"}/>
+                    {/*<img src={"/assets/tokenomicsList.svg"} alt={"Tokenomics List"} className={"flex w-1/2"}/>*/}
                 </div>
                 <div
                     className='flex flex-col items-center xl:hidden justify-between xl:justify-normal gap-[60px] w-full  xl:mt-0'>
