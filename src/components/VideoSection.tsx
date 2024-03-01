@@ -18,6 +18,8 @@ function VideoSection({
         mainContainerClassName
       )}
     >
+      <img src={"/assets/bgPlayLogo.svg"} alt={"bgPlayLogo"} className={"hidden xl:block absolute left-0"}/>
+      <img src={"/assets/bgPlayLogoMobile.svg"} alt={"bgPlayLogoMobile"} className={" xl:hidden block absolute left-0 mb-[250px]"}/>
       <div className="flex relative">
         <div className="z-[2] w-[325px] xl:w-[750px] xl:flex justify-center items-center hidden">
           {/* <VideoPlayer url={videoUrl} coverImage={coverImageUrl} /> */}

@@ -43,27 +43,25 @@ function NewsLetter() {
   };
 
   return (
-    <div className="flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[100px] px-6">
+    <div className="flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[100px] ">
+      <div
+          className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] py-[50px]`}
+      >
+        <div className="w-[267px] h-[0px] opacity-30 border border-zinc-500"></div>
+        <p
+            className={
+              "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
+            }
+        >
+          newsletter
+        </p>
+      </div>
       <div className="flex flex-col xl:flex-row w-[330px] gap-8 xl:w-[1280px] 2xl:w-[1538px] xl:gap-[80px] 2xl:gap-[140px] ">
         <div className="flex flex-col items-center xl:flex-row xl:items-start gap-[30px] xl:gap-[60px] ">
           <HorizontalTitle
             title="newsletter"
             mainContainerClassName="gap-[60px] hidden xl:flex"
           />
-          <div
-            className={`xl:hidden flex flex-row items-center justify-start gap-[20px]`}
-          >
-            <div
-              className={"border-b-2 w-[290px] h-[1px] border-[#505D65]"}
-            ></div>
-            <p
-              className={
-                "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
-              }
-            >
-              newsletter
-            </p>
-          </div>
           <div className="flex flex-col gap-[30px]">
             <h1 className=" text-[24px] leading-[31.2px] text-center xl:w-[550px] 2xl:w-[671px] xl:text-left text-[#505D65] 2xl:text-[48px] font-bold 2xl:leading-[62.4px] xl:text-[28px] xl:leading-[28px]">
               Fireflies $FFT Token<br></br> Newsletter

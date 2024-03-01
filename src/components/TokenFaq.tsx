@@ -4,10 +4,24 @@ import { CustomCarousel } from './Slider'
 
 function TokenFaq() {
     return (
-        <div id='roadmap' className='flex items-center w-full flex-col xl:pt-[150px]'>
+        <div id='roadmap' className='flex items-center w-full flex-col xl:pt-[150px] '>
+            <div
+                className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] py-[50px]`}
+            >
+                <div className="w-[267px] h-[0px] opacity-30 border border-zinc-500"></div>
+                <p
+                    className={
+                        "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
+                    }
+                >
+                    Journey map
+                </p>
+            </div>
             <div className="flex flex-col w-[330px] xl:w-[1280px] 2xl:w-[1538px] xl:gap-[140px] px-6 ">
+
                 <div className='flex items-start gap-[60px] '>
                     <HorizontalTitle title='journey map' mainContainerClassName='gap-[60px] hidden xl:flex' titleClassName='w-[100px]' />
+
                     <div className="flex flex-col xl:gap-[30px] gap-3">
                         <h1 className='xl:w-[671px] xl:text-left text-center text-[#505D65] xl:text-[48px] text-[22px] xl:leading-[72px] font-bold'>Navigating New Horizons:</h1>
                         <h1 className='xl:w-[650px] xl:text-left text-center text-[#505D65] xl:text-[80px] text-[40px] font-bold xl:leading-[88px] uppercase'>The $FFT Token Journey Map</h1>
