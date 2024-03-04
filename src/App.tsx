@@ -22,6 +22,7 @@ import { Toaster } from "@/components/ui/toaster"
 import ScrollToTop from "./components/scrollToTop"
 import Tokenomics from "@/components/Tokenomics.tsx";
 import UnlockRewards from "@/components/UnlockRewards.tsx";
+import PreSale from "@/components/PreSale.tsx";
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
         <MakingDifferenceSection />
         <TheWorldIsYours />
         <Tokenomics/>
+        <PreSale/>
         <UnlockRewards/>
         <TokenFaq />
         <NewsLetter />
