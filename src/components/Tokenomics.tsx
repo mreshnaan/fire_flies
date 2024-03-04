@@ -2,7 +2,7 @@ import HorizontalTitle from "@/components/HorizontalTitle.tsx";
 
 const Tokenomics = () => {
     return (
-        <div id="digital-collectibles"
+        <div id="tokenomics"
              className='flex video-bg1 items-center w-full flex-col xl:pt-[150px] top-[100px] xl:h-auto h-[980px] pt-10 xl:mb-[0px] mb-[100px]'>
             <div
                 className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] pb-[50px]`}

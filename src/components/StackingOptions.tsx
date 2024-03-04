@@ -2,7 +2,7 @@ import HorizontalTitle from './HorizontalTitle'
 
 function StackingOptions() {
     return (
-        <div id='tokenomics' className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px]'>
+        <div id='staking_option' className='flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[200px]'>
             <div
                 className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] pb-[50px]`}
             >

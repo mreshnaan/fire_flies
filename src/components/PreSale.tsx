@@ -4,7 +4,7 @@ import {cn} from "@/lib/utils.ts";
 
 const PreSale = () => {
     return (
-        <div id='faq'
+        <div id='pre_sales'
              className='flex items-center w-full flex-col pt-[50px] video-bg2 pb-[50px] xl:pt-[150px] xl:pb-[100px]'>
             <div
                 className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] pb-[50px]`}

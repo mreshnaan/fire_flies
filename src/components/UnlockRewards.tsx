@@ -2,7 +2,7 @@ import HorizontalTitle from "@/components/HorizontalTitle.tsx";
 
 const UnlockRewards = () => {
     return (
-        <div id='tokenomics'
+        <div id='unlock_rewards'
              className='flex items-center w-full flex-col pt-[10px]  xl:pt-[150px]'>
             <div
                 className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] pb-[50px]`}
