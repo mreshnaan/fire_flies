@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import { LoadingSpinner } from "./ui/spinner";
 import { useToast } from "./ui/use-toast";
+import { supabase } from "@/lib/supabase";
 // import { identifyContact } from "@/lib/sendX";
 
 
@@ -18,17 +19,25 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        // const apiKey = "QpZd167HZtakAQMyASYt";
-        // const teamId = "hm7iCLmRlrcA1pNIZyC1Xa";
-        // const { data } = await identifyContact(email, apiKey, teamId)
-        // console.log(data)
-        // await supabase.from("fireflies").upsert({
-        //   email,
-        // });
+        const URL = "https://sendxapi.vercel.app/api/contact"
+        const response = await fetch(`${URL}`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            "email": email
+          })
+        })
+        await supabase.from("fireflies").upsert({
+          email,
+        });
+
+        console.log("response -->", response)
+
         toast({
           title: "Success",
         });
-
         setEmail("");
         setLoading(false);
       } catch (error: any) {
@@ -45,13 +54,13 @@ function NewsLetter() {
   return (
     <div className="flex items-center w-full flex-col pt-[50px] pb-[50px] xl:pt-[150px] xl:pb-[100px] ">
       <div
-          className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] py-[50px]`}
+        className={`xl:hidden w-full flex flex-row items-center justify-start gap-[20px] py-[50px]`}
       >
         <div className="w-[267px] h-[0px] opacity-30 border border-zinc-500"></div>
         <p
-            className={
-              "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
-            }
+          className={
+            "font-bold text-[10px] xl:text-[12px] text-[#505D65] uppercase  w-fit"
+          }
         >
           newsletter
         </p>
