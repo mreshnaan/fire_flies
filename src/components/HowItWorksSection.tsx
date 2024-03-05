@@ -14,7 +14,7 @@ function HowItWorksSection() {
                     <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[280px] 2xl:w-[380px] xl:text-left text-[#13AFB6] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>How the travel market works</h1>
                 </div>
 
-                <img src="/assets/howitworks1.png" alt="" srcSet="" className='w-[330px] xl:w-[800px]  object-contain' />
+                <img src="/assets/howitworks1.svg" alt="" srcSet="" className='w-[330px] xl:w-[800px]  object-contain' />
             </div>
 
 
@@ -25,7 +25,7 @@ function HowItWorksSection() {
                         <h1 className='w-[325px] text-[40px] leading-[44px] text-center xl:w-[280px] 2xl:w-[380px] xl:text-left text-[#505D65] xl:text-[50px] 2xl:text-[80px] font-bold 2xl:leading-[88px] uppercase'>How FIREFLIES works</h1>
                     </div>
         
-                    <img src="/assets/howitworks2.png" alt="" srcSet="" className='w-[330px] xl:w-[800px]  object-contain' />
+                    <img src="/assets/howitworks2.svg" alt="" srcSet="" className='w-[330px] xl:w-[800px]  object-contain' />
                 </div>
 
                 <div className='flex items-center gap-3 xl:pl-[96.58px]'>

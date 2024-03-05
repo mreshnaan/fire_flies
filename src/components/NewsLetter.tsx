@@ -98,14 +98,14 @@ function NewsLetter() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   type="email"
-                  className="bg-[#F1F1F2] placeholder:text-[#505D65] :w-full xl:text-[20px] text-[16px] leading-[24px] text-justify xl:pr-[14rem] xl:leading-[30px] focus-visible:ring-0 border-none  rounded-none focus-visible:outline-none outline-none border-0 focus:ring-0"
+                  className="bg-[#F1F1F2] placeholder:text-[#505D65] xl:w-full xl:text-[20px] text-[16px] leading-[24px] text-justify xl:pr-[14rem] xl:leading-[30px] focus-visible:ring-0 border-none  rounded-none focus-visible:outline-none outline-none border-0 focus:ring-0"
                   placeholder="Your Email Address"
                   required
                 />
                 <button
                   type="submit"
 
-                  className="absolute w-[135px] h-[50px] text-[12px] left-[200px] leading-[15.6px] xl:left-[307px] 2xl:left-[407px] xl:text-[18px] xl:leading-[23px] font-bold uppercase subscription-btn-bg xl:w-[207px] xl:h-[70px] xl:gap-[12px] rounded-[50px] text-[#FFF] flex items-center justify-center"
+                  className="absolute w-[135px] h-[50px] text-[12px] left-[205px] leading-[15.6px] xl:left-[307px] 2xl:left-[407px] xl:text-[18px] xl:leading-[23px] font-bold uppercase subscription-btn-bg xl:w-[207px] xl:h-[70px] xl:gap-[12px] rounded-[50px] text-[#FFF] flex items-center justify-center"
                 >
                   {!loading && (
                     <svg

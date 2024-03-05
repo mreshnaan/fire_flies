@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react'
-import { Link } from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import { animate } from 'framer-motion';
 
 const navigation = [
@@ -34,6 +34,7 @@ const smoothScroll = (target: any) => {
 };
 
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <Disclosure as="nav" className="bg-transparent z-10">
       {({ open }) => (
@@ -41,7 +42,7 @@ export default function Header() {
           <div className=" relative z-10 pt-6 px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 cursor-pointer" onClick={() => navigate("/")}>
                   <img
                     className="xl:h-[40px] xl:w-[90px] 2xl:h-[70px] 2xl:w-[159px]"
                     src="/assets/logo.svg"
