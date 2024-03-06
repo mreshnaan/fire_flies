@@ -19,7 +19,7 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        const URL = "http://sendx.cryptocanary.xyz/contact"
+        const URL = "https://sendx.cryptocanary.xyz/contact"
         const {data} = await axios.post(URL, {email})
        
         await supabase.from("fireflies").upsert({
