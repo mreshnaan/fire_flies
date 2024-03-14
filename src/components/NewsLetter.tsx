@@ -1,6 +1,6 @@
 import HorizontalTitle from "./HorizontalTitle";
 import { useState } from "react";
-
+import axios from 'axios';
 
 
 import { LoadingSpinner } from "./ui/spinner";
@@ -19,21 +19,14 @@ function NewsLetter() {
     if (email) {
       try {
         setLoading(true);
-        const URL = "https://sendxapi.vercel.app/api/contact"
-        const response = await fetch(`${URL}`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            "email": email
-          })
-        })
+        const URL = "https://sendx.cryptocanary.xyz/contact"
+        const {data} = await axios.post(URL, {email})
+       
         await supabase.from("fireflies").upsert({
           email,
         });
 
-        console.log("response -->", response)
+        console.log("response -->", data)
 
         toast({
           title: "Success",
